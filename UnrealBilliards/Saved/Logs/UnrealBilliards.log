@@ -1,4 +1,4 @@
-﻿Log file open, 10/23/17 12:25:49
+﻿Log file open, 10/23/17 12:29:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UnrealBilliards
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(566901386) SRandInit(566901386).
+LogInit: Display: RandInit(1183644538) SRandInit(1183644538).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.168602
+LogStats: Stats thread started at 0.162554
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -106,472 +106,1147 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.23-10.25.50:285][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.23-10.25.50:285][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.23-10.25.50:314][  0]LogInit: Computer: 3SE-SPEL-65
-[2017.10.23-10.25.50:314][  0]LogInit: User: svenos
-[2017.10.23-10.25.50:314][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.23-10.25.50:314][  0]LogInit: High frequency timer resolution =3.123212 MHz
-[2017.10.23-10.25.50:315][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.10.23-10.25.50:315][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.23-10.25.50:315][  0]LogMemory: Process Physical Memory: 279.24 MB used, 279.24 MB peak
-[2017.10.23-10.25.50:315][  0]LogMemory: Process Virtual Memory: 277.07 MB used, 277.07 MB peak
-[2017.10.23-10.25.50:315][  0]LogMemory: Physical Memory: 4060.73 MB used,  4074.46 MB free, 8135.20 MB total
-[2017.10.23-10.25.50:315][  0]LogMemory: Virtual Memory: 657.16 MB used,  4074.46 MB free, 8388608.00 MB total
-[2017.10.23-10.25.50:649][  0]LogInit: Using OS detected language (sv-SE).
-[2017.10.23-10.25.50:649][  0]LogInit: Using OS detected locale (sv-SE).
-[2017.10.23-10.25.50:654][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
-[2017.10.23-10.25.50:654][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
-[2017.10.23-10.25.51:392][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.23-10.25.51:421][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.10.23-10.25.51:421][  0]LogD3D11RHI:       4007/0/3811 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.10.23-10.25.51:421][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.23-10.25.51:425][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.23-10.25.51:425][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.23-10.25.51:425][  0]LogWindows: EnumDisplayDevices:
-[2017.10.23-10.25.51:425][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.10.23-10.25.51:426][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2017.10.23-10.25.51:426][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.10.23-10.25.51:426][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.10.23-10.25.51:426][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2017.10.23-10.25.51:426][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2017.10.23-10.25.51:426][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2017.10.23-10.25.51:426][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.10.23-10.25.51:426][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.10.23-10.25.51:426][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
-[2017.10.23-10.25.51:426][  0]LogD3D11RHI:      Driver Date: 8-11-2016
-[2017.10.23-10.25.51:426][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.23-10.25.51:434][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.23-10.25.51:448][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2017.10.23-10.25.51:542][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Intermediate/Shaders/WorkingDirectory/5064/).
-[2017.10.23-10.25.51:542][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/svenos/AppData/Local/Temp/UnrealShaderWorkingDir/65C9CB0D45CFCBD140F8698D77F7B0E7/'.
-[2017.10.23-10.25.51:542][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.23-10.25.52:644][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.23-10.25.52:686][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.23-10.25.52:730][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.23-10.25.52:774][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.23-10.25.52:821][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.23-10.25.52:865][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.23-10.25.52:909][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.23-10.25.52:954][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.23-10.25.52:990][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.23-10.25.53:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.23-10.25.53:078][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.23-10.25.53:118][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.23-10.25.53:160][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.23-10.25.53:201][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.23-10.25.53:242][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.23-10.25.53:325][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.23-10.25.53:325][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.23-10.25.53:357][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.23-10.25.53:435][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.23-10.25.53:457][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.23-10.25.53:498][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.23-10.25.53:539][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.23-10.25.53:580][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.23-10.25.53:624][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.23-10.25.53:624][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.23-10.25.53:952][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.23-10.25.54:120][  0]LogDerivedDataCache: Loaded boot cache 0.17s 93MB C:/Users/svenos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.23-10.25.54:120][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/svenos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.23-10.25.54:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjects/Unreal Billiards/UnrealBilliards/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.23-10.25.54:120][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.23-10.25.54:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjects/Unreal Billiards/UnrealBilliards/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.23-10.25.54:120][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.23-10.25.54:149][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.23-10.25.54:161][  0]LogDerivedDataCache: Using Local data cache path C:/Users/svenos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.23-10.25.54:175][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.23-10.25.54:175][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.23-10.25.54:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.23-10.25.54:179][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.23-10.25.54:678][  0]LogAssetRegistry: FAssetRegistry took 0.0334 seconds to start up
-[2017.10.23-10.25.54:863][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.23-10.25.54:867][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.23-10.25.55:262][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.23-10.25.55:299][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.23-10.25.55:299][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.23-10.25.55:299][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.23-10.25.55:299][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.23-10.25.55:299][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.23-10.25.55:645][  0]LogNetVersion: UnrealBilliards , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3242063523)
-[2017.10.23-10.25.55:817][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.025586 seconds
-[2017.10.23-10.25.55:823][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.23-10.25.55:823][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.10.23-10.25.55:823][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.23-10.25.55:864][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.23-10.25.58:457][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.23-10.25.58:489][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.23-10.25.59:006][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.23-10.25.59:338][  0]SourceControl: Source control is disabled
-[2017.10.23-10.25.59:338][  0]SourceControl: Source control is disabled
-[2017.10.23-10.25.59:373][  0]SourceControl: Source control is disabled
-[2017.10.23-10.25.59:408][  0]SourceControl: Source control is disabled
-[2017.10.23-10.25.59:833][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.23-10.26.00:012][  0]LogOcInput: OculusInput pre-init called
-[2017.10.23-10.26.00:213][  0]LogEngine: Initializing Engine...
-[2017.10.23-10.26.00:214][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.23-10.26.00:438][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.23-10.26.00:438][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.23-10.26.00:545][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.23-10.26.00:554][  0]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.23-10.26.00:569][  0]LogInit: FAudioDevice initialized.
-[2017.10.23-10.26.00:654][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/svenos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.23-10.26.00:659][  0]LogInit: Texture streaming: Enabled
-[2017.10.23-10.26.00:732][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.23-10.26.00:900][  0]LogInit: Transaction tracking system initialized
-[2017.10.23-10.26.01:139][  0]BlueprintLog: New page: Editor Load
-[2017.10.23-10.26.01:850][  0]LocalizationService: Localization service is disabled
-[2017.10.23-10.26.02:386][  0]LogConsoleResponse: Display: 
-[2017.10.23-10.26.02:546][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/' took 0.01s
-[2017.10.23-10.26.02:546][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.23-10.26.02:546][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.23-10.26.02:546][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.23-10.26.03:334][  0]SourceControl: Source control is disabled
-[2017.10.23-10.26.03:334][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-10.26.03:334][  0]LightingResults: New page: Lighting Build
-[2017.10.23-10.26.03:369][  0]MapCheck: New page: Map Check
-[2017.10.23-10.26.03:369][  0]LightingResults: New page: Lighting Build
-[2017.10.23-10.26.03:549][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.10.23-10.26.03:554][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-10.26.03:567][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-10.26.03:611][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.2ms to complete.
-[2017.10.23-10.26.03:611][  0]LogFileHelpers: Loading map 'Template_Default' took 0.277
-[2017.10.23-10.26.03:746][  0]LogCollectionManager: Loaded 0 collections in 0.001222 seconds
-[2017.10.23-10.26.03:817][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Collections/' took 0.01s
-[2017.10.23-10.26.03:817][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Developers/svenos/Collections/' took 0.01s
-[2017.10.23-10.26.03:817][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Collections/' took 0.01s
-[2017.10.23-10.26.03:817][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2017.10.23-10.26.03:826][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2386 classes and 500 folders.
-[2017.10.23-10.26.03:873][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.10.23-10.26.03:916][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.10.23-10.26.03:950][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.10.23-10.26.03:969][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.23-10.26.03:971][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.23-10.26.03:975][  0]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.23-10.26.04:073][  0]LogRenderer: Reallocating scene render targets to support 952x500 Format 10 NumSamples 1 (Frame:1).
-[2017.10.23-10.26.04:252][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.10.23-10.26.04:252][  0]LogLoad: (Engine Initialization) Total time: 15.39 seconds
-[2017.10.23-10.26.04:252][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.23-10.26.04:252][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.23-10.26.04:252][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.23-10.26.04:286][  0]LogAssetRegistry: Asset discovery search completed in 9.6341 seconds
-[2017.10.23-10.26.04:288][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.23-10.26.04:288][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
-[2017.10.23-10.26.04:291][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.10.23-10.26.08:630][495]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-10.26.42:688][905]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.23-10.26.42:998][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BilliardsLevel" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-10.26.43:027][905]LogSavePackage: Save=18.63ms
-[2017.10.23-10.26.43:027][905]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/BilliardsLevel8398449B4C19A16CC6BA03861DF044D0.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap'
-[2017.10.23-10.26.43:029][905]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap
-[2017.10.23-10.26.43:036][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BilliardsLevel_BuiltData" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel_BuiltData.uasset" SILENT=true
-[2017.10.23-10.26.43:044][905]LogSavePackage: Save=7.20ms
-[2017.10.23-10.26.43:044][905]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/BilliardsLevel_BuiltData11C80BFB404DA2645C424296912BE3D8.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel_BuiltData.uasset'
-[2017.10.23-10.26.43:045][905]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel_BuiltData.uasset
-[2017.10.23-10.26.43:050][905]LogFileHelpers: Saving map 'BilliardsLevel' took 0.411
-[2017.10.23-10.26.51:792][940]Cmd: MAP LOAD FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.23-10.26.51:793][940]LightingResults: New page: Lighting Build
-[2017.10.23-10.26.51:793][940]LoadErrors: New page: Loading map: BilliardsLevel.umap
-[2017.10.23-10.26.51:796][940]MapCheck: New page: Map Check
-[2017.10.23-10.26.51:796][940]LightingResults: New page: Lighting Build
-[2017.10.23-10.26.51:841][940]LogAIModule: Creating AISystem for world BilliardsLevel
-[2017.10.23-10.26.51:843][940]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.23-10.26.51:859][940]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.23-10.26.51:904][940]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.865ms to complete.
-[2017.10.23-10.26.51:904][940]LogFileHelpers: Loading map 'BilliardsLevel' took 0.113
-[2017.10.23-10.28.01:835][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BilliardsLevel" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.10.23-10.28.01:864][175]LogSavePackage: Save=17.92ms
-[2017.10.23-10.28.01:864][175]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/BilliardsLevel02A9762A41763216B5508EB7020846C5.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap'
-[2017.10.23-10.28.01:865][175]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap
-[2017.10.23-10.28.01:871][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BilliardsLevel_BuiltData" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel_BuiltData.uasset" SILENT=true
-[2017.10.23-10.28.01:880][175]LogSavePackage: Save=8.09ms
-[2017.10.23-10.28.01:880][175]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/BilliardsLevel_BuiltData8C84D9304988E7707CAF858B41168319.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel_BuiltData.uasset'
-[2017.10.23-10.28.01:881][175]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel_BuiltData.uasset
-[2017.10.23-10.28.03:126][301]Cmd: QUIT_EDITOR
-[2017.10.23-10.28.03:151][301]LogExit: Preparing to exit.
-[2017.10.23-10.28.03:638][301]LogExit: Editor shut down
-[2017.10.23-10.28.03:640][301]LogExit: Transaction tracking system shut down
-[2017.10.23-10.28.03:763][301]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.10.23-10.28.03:763][301]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/' was aborted.
-[2017.10.23-10.28.03:763][301]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.10.23-10.28.03:763][301]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.10.23-10.28.03:763][301]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.10.23-10.28.03:809][301]LogExit: Object subsystem successfully closed.
-[2017.10.23-10.28.03:828][301]LogD3D11RHI: Shutdown
-[2017.10.23-10.28.03:828][301]LogD3D11RHI: CleanupD3DDevice
-[2017.10.23-10.28.03:891][301]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.10.23-10.28.03:903][301]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2017.10.23-10.28.03:903][301]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2017.10.23-10.28.03:903][301]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2017.10.23-10.28.03:903][301]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/4.17/FeaturePacks/' was aborted.
-[2017.10.23-10.28.03:904][301]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2017.10.23-10.28.03:904][301]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2017.10.23-10.28.03:904][301]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2017.10.23-10.28.03:904][301]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Collections/' was aborted.
-[2017.10.23-10.28.03:904][301]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Developers/svenos/Collections/' was aborted.
-[2017.10.23-10.28.03:904][301]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Collections/' was aborted.
-[2017.10.23-10.28.03:904][301]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2017.10.23-10.28.03:904][301]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2017.10.23-10.28.03:904][301]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module Media (477)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2017.10.23-10.28.03:905][301]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2017.10.23-10.28.04:136][301]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2017.10.23-10.28.04:137][301]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2017.10.23-10.28.04:137][301]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2017.10.23-10.28.04:137][301]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2017.10.23-10.28.04:137][301]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2017.10.23-10.28.04:137][301]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2017.10.23-10.28.04:137][301]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2017.10.23-10.28.04:137][301]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2017.10.23-10.28.04:187][301]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2017.10.23-10.28.04:188][301]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2017.10.23-10.28.04:430][301]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2017.10.23-10.28.04:431][301]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.10.23-10.28.04:432][301]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.10.23-10.28.04:532][301]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.10.23-10.28.04:632][301]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.10.23-10.28.04:632][301]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.10.23-10.28.04:632][301]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.10.23-10.28.04:632][301]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.10.23-10.28.04:632][301]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.10.23-10.28.04:632][301]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.10.23-10.28.04:633][301]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.10.23-10.28.04:633][301]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.10.23-10.28.04:633][301]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.10.23-10.28.04:633][301]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.10.23-10.28.04:634][301]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module LevelSequence (148)
-[2017.10.23-10.28.04:636][301]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.10.23-10.28.04:640][301]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.10.23-10.28.04:718][301]LogDerivedDataCache: Shutdown
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.10.23-10.28.04:718][301]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.10.23-10.28.04:719][301]LogOnline: Display: Unloading online subsystem: NULL
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.10.23-10.28.04:719][301]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.10.23-10.28.04:719][301]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.10.23-10.28.04:719][301]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B68CFDCDC-47B1-1510-DCD8-3E967A13945C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=89c42780487290bf0e1742a504dab30d%7C1233a64788054df395f9622c3ce6b3ec%7C2657d383-c71c-4f87-999b-40923e3cd8a0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.10.23-10.28.04:735][301]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.10.23-10.28.04:737][301]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.10.23-10.28.04:738][301]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.10.23-10.28.04:740][301]LogExit: Exiting.
-[2017.10.23-10.28.04:746][301]Log file closed, 10/23/17 12:28:04
+[2017.10.23-10.29.07:483][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.23-10.29.07:483][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.23-10.29.07:490][  0]LogInit: Computer: 3SE-SPEL-65
+[2017.10.23-10.29.07:490][  0]LogInit: User: svenos
+[2017.10.23-10.29.07:490][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.23-10.29.07:490][  0]LogInit: High frequency timer resolution =3.123212 MHz
+[2017.10.23-10.29.07:490][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.23-10.29.07:490][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.23-10.29.07:490][  0]LogMemory: Process Physical Memory: 279.54 MB used, 279.54 MB peak
+[2017.10.23-10.29.07:490][  0]LogMemory: Process Virtual Memory: 276.74 MB used, 276.74 MB peak
+[2017.10.23-10.29.07:490][  0]LogMemory: Physical Memory: 2750.61 MB used,  5384.58 MB free, 8135.20 MB total
+[2017.10.23-10.29.07:490][  0]LogMemory: Virtual Memory: 653.16 MB used,  5384.58 MB free, 8388608.00 MB total
+[2017.10.23-10.29.07:600][  0]LogInit: Using OS detected language (sv-SE).
+[2017.10.23-10.29.07:600][  0]LogInit: Using OS detected locale (sv-SE).
+[2017.10.23-10.29.07:602][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2017.10.23-10.29.07:602][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
+[2017.10.23-10.29.08:201][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.23-10.29.08:222][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.23-10.29.08:222][  0]LogD3D11RHI:       4007/0/3811 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.23-10.29.08:222][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.23-10.29.08:225][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.23-10.29.08:226][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.23-10.29.08:226][  0]LogWindows: EnumDisplayDevices:
+[2017.10.23-10.29.08:226][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.23-10.29.08:226][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.10.23-10.29.08:226][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.23-10.29.08:226][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.23-10.29.08:226][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.23-10.29.08:226][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.23-10.29.08:226][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.23-10.29.08:226][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.23-10.29.08:226][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.23-10.29.08:226][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2017.10.23-10.29.08:226][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2017.10.23-10.29.08:226][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.23-10.29.08:235][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.23-10.29.08:249][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.23-10.29.08:342][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Intermediate/Shaders/WorkingDirectory/5844/).
+[2017.10.23-10.29.08:342][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/svenos/AppData/Local/Temp/UnrealShaderWorkingDir/7EE17CF14C9841C90A8092993503DF77/'.
+[2017.10.23-10.29.08:342][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.23-10.29.09:158][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.23-10.29.09:198][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.23-10.29.09:238][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.23-10.29.09:279][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.23-10.29.09:321][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.23-10.29.09:362][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.23-10.29.09:403][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.23-10.29.09:444][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.23-10.29.09:478][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.23-10.29.09:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.23-10.29.09:558][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.23-10.29.09:597][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.23-10.29.09:637][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.23-10.29.09:677][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.23-10.29.09:716][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.23-10.29.09:796][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.23-10.29.09:796][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.23-10.29.09:825][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.23-10.29.09:898][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.23-10.29.09:919][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.23-10.29.09:958][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.23-10.29.09:998][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.23-10.29.10:037][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.23-10.29.10:077][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.23-10.29.10:077][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.23-10.29.10:401][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.23-10.29.10:499][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/svenos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.23-10.29.10:499][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/svenos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.23-10.29.10:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjects/Unreal Billiards/UnrealBilliards/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.23-10.29.10:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.23-10.29.10:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjects/Unreal Billiards/UnrealBilliards/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.23-10.29.10:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.23-10.29.10:518][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.23-10.29.10:529][  0]LogDerivedDataCache: Using Local data cache path C:/Users/svenos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.23-10.29.10:539][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.23-10.29.10:540][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.23-10.29.10:540][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.23-10.29.10:540][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.23-10.29.10:796][  0]LogAssetRegistry: FAssetRegistry took 0.0241 seconds to start up
+[2017.10.23-10.29.10:954][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.23-10.29.10:958][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.23-10.29.11:264][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.23-10.29.11:295][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.23-10.29.11:295][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.23-10.29.11:295][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.23-10.29.11:295][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.23-10.29.11:295][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.23-10.29.11:634][  0]LogNetVersion: UnrealBilliards , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3242063523)
+[2017.10.23-10.29.11:800][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.024856 seconds
+[2017.10.23-10.29.11:806][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.23-10.29.11:806][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.23-10.29.11:806][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.23-10.29.11:844][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.23-10.29.13:976][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.23-10.29.14:003][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.23-10.29.14:517][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.23-10.29.14:849][  0]SourceControl: Source control is disabled
+[2017.10.23-10.29.14:849][  0]SourceControl: Source control is disabled
+[2017.10.23-10.29.14:886][  0]SourceControl: Source control is disabled
+[2017.10.23-10.29.14:921][  0]SourceControl: Source control is disabled
+[2017.10.23-10.29.15:336][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.23-10.29.15:510][  0]LogOcInput: OculusInput pre-init called
+[2017.10.23-10.29.15:704][  0]LogEngine: Initializing Engine...
+[2017.10.23-10.29.15:706][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.23-10.29.15:947][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.23-10.29.15:947][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.23-10.29.16:047][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.23-10.29.16:055][  0]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.23-10.29.16:069][  0]LogInit: FAudioDevice initialized.
+[2017.10.23-10.29.16:292][  0]LogDerivedDataCache: Saved boot cache 0.22s 93MB C:/Users/svenos/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.23-10.29.16:303][  0]LogInit: Texture streaming: Enabled
+[2017.10.23-10.29.16:379][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.23-10.29.16:552][  0]LogInit: Transaction tracking system initialized
+[2017.10.23-10.29.16:794][  0]BlueprintLog: New page: Editor Load
+[2017.10.23-10.29.17:466][  0]LocalizationService: Localization service is disabled
+[2017.10.23-10.29.18:397][  0]LogConsoleResponse: Display: 
+[2017.10.23-10.29.18:635][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.23-10.29.18:635][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.23-10.29.18:635][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.23-10.29.19:227][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/' took 0.02s
+[2017.10.23-10.29.19:534][  0]SourceControl: Source control is disabled
+[2017.10.23-10.29.19:534][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.23-10.29.19:534][  0]LightingResults: New page: Lighting Build
+[2017.10.23-10.29.19:573][  0]MapCheck: New page: Map Check
+[2017.10.23-10.29.19:573][  0]LightingResults: New page: Lighting Build
+[2017.10.23-10.29.19:768][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.23-10.29.19:775][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.23-10.29.19:793][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.23-10.29.19:841][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.106ms to complete.
+[2017.10.23-10.29.19:841][  0]LogFileHelpers: Loading map 'Template_Default' took 0.307
+[2017.10.23-10.29.19:986][  0]LogCollectionManager: Loaded 0 collections in 0.001571 seconds
+[2017.10.23-10.29.20:058][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Collections/' took 0.01s
+[2017.10.23-10.29.20:058][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Developers/svenos/Collections/' took 0.01s
+[2017.10.23-10.29.20:058][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Collections/' took 0.01s
+[2017.10.23-10.29.20:058][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.23-10.29.20:069][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2386 classes and 500 folders.
+[2017.10.23-10.29.20:134][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.23-10.29.20:177][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.23-10.29.20:216][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.23-10.29.20:236][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.23-10.29.20:238][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.23-10.29.20:244][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.23-10.29.20:344][  0]LogRenderer: Reallocating scene render targets to support 952x500 Format 10 NumSamples 1 (Frame:1).
+[2017.10.23-10.29.20:498][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.23-10.29.20:498][  0]LogLoad: (Engine Initialization) Total time: 14.15 seconds
+[2017.10.23-10.29.20:498][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.23-10.29.20:498][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.23-10.29.20:498][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.23-10.29.20:528][  0]LogAssetRegistry: Asset discovery search completed in 9.7514 seconds
+[2017.10.23-10.29.20:529][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.23-10.29.20:529][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.10.23-10.29.20:532][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.23-10.29.20:567][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-10.33.19:149][405]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-10.33.19:169][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/1.jpg)
+[2017.10.23-10.33.19:177][405]LogTexture: Display: Building textures: 1 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:252][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/2.jpg)
+[2017.10.23-10.33.19:258][405]LogTexture: Display: Building textures: 2 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:329][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/3.jpg)
+[2017.10.23-10.33.19:335][405]LogTexture: Display: Building textures: 3 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:404][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/4.jpg)
+[2017.10.23-10.33.19:409][405]LogTexture: Display: Building textures: 4 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:478][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/5.jpg)
+[2017.10.23-10.33.19:483][405]LogTexture: Display: Building textures: 5 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:549][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/6.jpg)
+[2017.10.23-10.33.19:555][405]LogTexture: Display: Building textures: 6 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:624][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/7.jpg)
+[2017.10.23-10.33.19:629][405]LogTexture: Display: Building textures: 7 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:695][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/8.jpg)
+[2017.10.23-10.33.19:700][405]LogTexture: Display: Building textures: 8 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:739][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/9.jpg)
+[2017.10.23-10.33.19:745][405]LogTexture: Display: Building textures: 9 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:814][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/10.jpg)
+[2017.10.23-10.33.19:820][405]LogTexture: Display: Building textures: 10 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:890][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/11.jpg)
+[2017.10.23-10.33.19:896][405]LogTexture: Display: Building textures: 11 (AutoDXT, 1024X512)
+[2017.10.23-10.33.19:964][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/12.jpg)
+[2017.10.23-10.33.19:970][405]LogTexture: Display: Building textures: 12 (AutoDXT, 1024X512)
+[2017.10.23-10.33.20:040][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/13.jpg)
+[2017.10.23-10.33.20:046][405]LogTexture: Display: Building textures: 13 (AutoDXT, 1024X512)
+[2017.10.23-10.33.20:113][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/14.jpg)
+[2017.10.23-10.33.20:119][405]LogTexture: Display: Building textures: 14 (AutoDXT, 1024X512)
+[2017.10.23-10.33.20:187][405]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/15.jpg)
+[2017.10.23-10.33.20:193][405]LogTexture: Display: Building textures: 15 (AutoDXT, 1024X512)
+[2017.10.23-10.33.20:278][405]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj)
+[2017.10.23-10.33.20:319][405]LogFbx: Loading FBX Scene from ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj
+[2017.10.23-10.33.20:914][405]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-10.33.20:916][405]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.23-10.33.34:389][405]LogFbx: Loading FBX Scene from ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj
+[2017.10.23-10.33.34:985][405]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-10.33.34:992][405]LogLinker: Can't find file '/Game/Models/10Mat'
+[2017.10.23-10.33.34:992][405]LogLinker: Can't find file '/Game/Models/10Mat'
+[2017.10.23-10.33.34:996][405]LogMaterial: Missing cached shader map for material 10Mat, compiling. 
+[2017.10.23-10.33.35:031][405]LogFbx: Warning: Triangulating static mesh 10
+[2017.10.23-10.33.35:484][405]LogStaticMesh: Building static mesh PoolBalls_10...
+[2017.10.23-10.33.35:523][405]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_10.PoolBalls_10
+[2017.10.23-10.33.35:538][405]LogLinker: Can't find file '/Game/Models/11Mat'
+[2017.10.23-10.33.35:538][405]LogLinker: Can't find file '/Game/Models/11Mat'
+[2017.10.23-10.33.35:542][405]LogMaterial: Missing cached shader map for material 11Mat, compiling. 
+[2017.10.23-10.33.35:559][405]LogFbx: Warning: Triangulating static mesh 11
+[2017.10.23-10.33.36:035][405]LogStaticMesh: Building static mesh PoolBalls_11...
+[2017.10.23-10.33.36:074][405]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_11.PoolBalls_11
+[2017.10.23-10.33.36:085][405]LogLinker: Can't find file '/Game/Models/12Mat'
+[2017.10.23-10.33.36:085][405]LogLinker: Can't find file '/Game/Models/12Mat'
+[2017.10.23-10.33.36:103][405]LogMaterial: Missing cached shader map for material 12Mat, compiling. 
+[2017.10.23-10.33.36:119][405]LogFbx: Warning: Triangulating static mesh 12
+[2017.10.23-10.33.36:595][405]LogStaticMesh: Building static mesh PoolBalls_12...
+[2017.10.23-10.33.36:661][405]LogStaticMesh: Built static mesh [0.07s] /Game/Models/PoolBalls_12.PoolBalls_12
+[2017.10.23-10.33.36:684][405]LogLinker: Can't find file '/Game/Models/13Mat'
+[2017.10.23-10.33.36:684][405]LogLinker: Can't find file '/Game/Models/13Mat'
+[2017.10.23-10.33.36:688][405]LogMaterial: Missing cached shader map for material 13Mat, compiling. 
+[2017.10.23-10.33.36:705][405]LogFbx: Warning: Triangulating static mesh 13
+[2017.10.23-10.33.37:173][405]LogStaticMesh: Building static mesh PoolBalls_13...
+[2017.10.23-10.33.37:269][405]LogStaticMesh: Built static mesh [0.10s] /Game/Models/PoolBalls_13.PoolBalls_13
+[2017.10.23-10.33.37:322][405]LogLinker: Can't find file '/Game/Models/14Mat'
+[2017.10.23-10.33.37:322][405]LogLinker: Can't find file '/Game/Models/14Mat'
+[2017.10.23-10.33.37:326][405]LogMaterial: Missing cached shader map for material 14Mat, compiling. 
+[2017.10.23-10.33.37:343][405]LogFbx: Warning: Triangulating static mesh 14
+[2017.10.23-10.33.38:102][405]LogStaticMesh: Building static mesh PoolBalls_14...
+[2017.10.23-10.33.38:154][405]LogStaticMesh: Built static mesh [0.05s] /Game/Models/PoolBalls_14.PoolBalls_14
+[2017.10.23-10.33.38:202][405]LogLinker: Can't find file '/Game/Models/15Mat'
+[2017.10.23-10.33.38:203][405]LogLinker: Can't find file '/Game/Models/15Mat'
+[2017.10.23-10.33.38:206][405]LogMaterial: Missing cached shader map for material 15Mat, compiling. 
+[2017.10.23-10.33.38:223][405]LogFbx: Warning: Triangulating static mesh 15
+[2017.10.23-10.33.38:780][405]LogStaticMesh: Building static mesh PoolBalls_15...
+[2017.10.23-10.33.38:822][405]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_15.PoolBalls_15
+[2017.10.23-10.33.38:837][405]LogLinker: Can't find file '/Game/Models/2Mat'
+[2017.10.23-10.33.38:837][405]LogLinker: Can't find file '/Game/Models/2Mat'
+[2017.10.23-10.33.38:841][405]LogMaterial: Missing cached shader map for material 2Mat, compiling. 
+[2017.10.23-10.33.38:860][405]LogFbx: Warning: Triangulating static mesh 2
+[2017.10.23-10.33.39:422][405]LogStaticMesh: Building static mesh PoolBalls_2...
+[2017.10.23-10.33.39:462][405]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_2.PoolBalls_2
+[2017.10.23-10.33.39:473][405]LogLinker: Can't find file '/Game/Models/3Mat'
+[2017.10.23-10.33.39:473][405]LogLinker: Can't find file '/Game/Models/3Mat'
+[2017.10.23-10.33.39:476][405]LogMaterial: Missing cached shader map for material 3Mat, compiling. 
+[2017.10.23-10.33.39:523][405]LogFbx: Warning: Triangulating static mesh 3
+[2017.10.23-10.33.40:073][405]LogStaticMesh: Building static mesh PoolBalls_3...
+[2017.10.23-10.33.40:109][405]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_3.PoolBalls_3
+[2017.10.23-10.33.40:122][405]LogLinker: Can't find file '/Game/Models/4Mat'
+[2017.10.23-10.33.40:122][405]LogLinker: Can't find file '/Game/Models/4Mat'
+[2017.10.23-10.33.40:125][405]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.33.40:148][405]LogFbx: Warning: Triangulating static mesh 4
+[2017.10.23-10.33.41:571][405]LogStaticMesh: Building static mesh PoolBalls_4...
+[2017.10.23-10.33.41:609][405]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_4.PoolBalls_4
+[2017.10.23-10.33.41:623][405]LogLinker: Can't find file '/Game/Models/5Mat'
+[2017.10.23-10.33.41:623][405]LogLinker: Can't find file '/Game/Models/5Mat'
+[2017.10.23-10.33.41:626][405]LogMaterial: Missing cached shader map for material 5Mat, compiling. 
+[2017.10.23-10.33.41:645][405]LogFbx: Warning: Triangulating static mesh 5
+[2017.10.23-10.33.42:217][405]LogStaticMesh: Building static mesh PoolBalls_5...
+[2017.10.23-10.33.42:258][405]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_5.PoolBalls_5
+[2017.10.23-10.33.42:272][405]LogLinker: Can't find file '/Game/Models/6Mat'
+[2017.10.23-10.33.42:272][405]LogLinker: Can't find file '/Game/Models/6Mat'
+[2017.10.23-10.33.42:276][405]LogMaterial: Missing cached shader map for material 6Mat, compiling. 
+[2017.10.23-10.33.42:292][405]LogFbx: Warning: Triangulating static mesh 6
+[2017.10.23-10.33.43:354][405]LogStaticMesh: Building static mesh PoolBalls_6...
+[2017.10.23-10.33.43:404][405]LogStaticMesh: Built static mesh [0.05s] /Game/Models/PoolBalls_6.PoolBalls_6
+[2017.10.23-10.33.43:417][405]LogLinker: Can't find file '/Game/Models/7Mat'
+[2017.10.23-10.33.43:417][405]LogLinker: Can't find file '/Game/Models/7Mat'
+[2017.10.23-10.33.43:420][405]LogMaterial: Missing cached shader map for material 7Mat, compiling. 
+[2017.10.23-10.33.43:437][405]LogFbx: Warning: Triangulating static mesh 7
+[2017.10.23-10.33.43:973][405]LogStaticMesh: Building static mesh PoolBalls_7...
+[2017.10.23-10.33.44:010][405]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_7.PoolBalls_7
+[2017.10.23-10.33.44:023][405]LogLinker: Can't find file '/Game/Models/8Mat'
+[2017.10.23-10.33.44:023][405]LogLinker: Can't find file '/Game/Models/8Mat'
+[2017.10.23-10.33.44:027][405]LogMaterial: Missing cached shader map for material 8Mat, compiling. 
+[2017.10.23-10.33.44:053][405]LogFbx: Warning: Triangulating static mesh 8
+[2017.10.23-10.33.44:548][405]LogStaticMesh: Building static mesh PoolBalls_8...
+[2017.10.23-10.33.44:598][405]LogStaticMesh: Built static mesh [0.05s] /Game/Models/PoolBalls_8.PoolBalls_8
+[2017.10.23-10.33.44:655][405]LogLinker: Can't find file '/Game/Models/9Mat'
+[2017.10.23-10.33.44:655][405]LogLinker: Can't find file '/Game/Models/9Mat'
+[2017.10.23-10.33.44:661][405]LogMaterial: Missing cached shader map for material 9Mat, compiling. 
+[2017.10.23-10.33.44:680][405]LogFbx: Warning: Triangulating static mesh 9
+[2017.10.23-10.33.45:538][405]LogStaticMesh: Building static mesh PoolBalls_9...
+[2017.10.23-10.33.45:730][405]LogStaticMesh: Built static mesh [0.19s] /Game/Models/PoolBalls_9.PoolBalls_9
+[2017.10.23-10.33.45:746][405]LogLinker: Can't find file '/Game/Models/ball_1Mat'
+[2017.10.23-10.33.45:746][405]LogLinker: Can't find file '/Game/Models/ball_1Mat'
+[2017.10.23-10.33.45:750][405]LogMaterial: Missing cached shader map for material ball_1Mat, compiling. 
+[2017.10.23-10.33.45:805][405]LogFbx: Warning: Triangulating static mesh ball_1
+[2017.10.23-10.33.46:555][405]LogStaticMesh: Building static mesh PoolBalls_ball_1...
+[2017.10.23-10.33.46:675][405]LogStaticMesh: Built static mesh [0.12s] /Game/Models/PoolBalls_ball_1.PoolBalls_ball_1
+[2017.10.23-10.33.46:689][405]LogLinker: Can't find file '/Game/Models/Plane01Mat'
+[2017.10.23-10.33.46:690][405]LogLinker: Can't find file '/Game/Models/Plane01Mat'
+[2017.10.23-10.33.46:693][405]LogMaterial: Missing cached shader map for material Plane01Mat, compiling. 
+[2017.10.23-10.33.46:746][405]LogFbx: Warning: Triangulating static mesh Plane01
+[2017.10.23-10.33.46:749][405]LogStaticMesh: Building static mesh PoolBalls_Plane01...
+[2017.10.23-10.33.46:750][405]LogStaticMesh: Built static mesh [0.00s] /Game/Models/PoolBalls_Plane01.PoolBalls_Plane01
+[2017.10.23-10.33.46:752][405]LogLinker: Can't find file '/Game/Models/Sphere01Mat'
+[2017.10.23-10.33.46:752][405]LogLinker: Can't find file '/Game/Models/Sphere01Mat'
+[2017.10.23-10.33.46:756][405]LogMaterial: Missing cached shader map for material Sphere01Mat, compiling. 
+[2017.10.23-10.33.46:773][405]LogFbx: Warning: Triangulating static mesh Sphere01
+[2017.10.23-10.33.47:279][405]LogStaticMesh: Building static mesh PoolBalls_Sphere01...
+[2017.10.23-10.33.47:329][405]LogStaticMesh: Built static mesh [0.05s] /Game/Models/PoolBalls_Sphere01.PoolBalls_Sphere01
+[2017.10.23-10.33.47:342][405]LogLinker: Can't find file '/Game/Models/Sphere03Mat'
+[2017.10.23-10.33.47:342][405]LogLinker: Can't find file '/Game/Models/Sphere03Mat'
+[2017.10.23-10.33.47:345][405]LogMaterial: Missing cached shader map for material Sphere03Mat, compiling. 
+[2017.10.23-10.33.47:364][405]LogFbx: Warning: Triangulating static mesh Sphere03
+[2017.10.23-10.33.47:848][405]LogStaticMesh: Building static mesh PoolBalls_Sphere03...
+[2017.10.23-10.33.47:943][405]LogStaticMesh: Built static mesh [0.09s] /Game/Models/PoolBalls_Sphere03.PoolBalls_Sphere03
+[2017.10.23-10.33.47:995][405]LogLinker: Can't find file '/Game/Models/Sphere15Mat'
+[2017.10.23-10.33.47:995][405]LogLinker: Can't find file '/Game/Models/Sphere15Mat'
+[2017.10.23-10.33.47:998][405]LogMaterial: Missing cached shader map for material Sphere15Mat, compiling. 
+[2017.10.23-10.33.48:014][405]LogFbx: Warning: Triangulating static mesh Sphere15
+[2017.10.23-10.33.48:891][405]LogStaticMesh: Building static mesh PoolBalls_Sphere15...
+[2017.10.23-10.33.48:964][405]LogStaticMesh: Built static mesh [0.07s] /Game/Models/PoolBalls_Sphere15.PoolBalls_Sphere15
+[2017.10.23-10.34.00:236][969]LogActorFactory: Actor Factory created PoolBalls_2
+[2017.10.23-10.34.00:783][ 31]LogActorFactory: Actor Factory created PoolBalls_2
+[2017.10.23-10.34.05:999][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PoolBalls_2)
+[2017.10.23-10.34.06:359][641]Cmd: DELETE
+[2017.10.23-10.34.06:359][641]Cmd: ACTOR DELETE
+[2017.10.23-10.34.06:360][641]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.23-10.34.06:370][641]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.10.23-10.34.27:471][230]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj)
+[2017.10.23-10.34.27:499][230]LogFbx: Loading FBX Scene from ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj
+[2017.10.23-10.34.28:104][230]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-10.34.29:295][230]LogFbx: Loading FBX Scene from ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj
+[2017.10.23-10.34.29:899][230]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-10.34.29:904][230]LogMaterial: Missing cached shader map for material 10Mat, compiling. 
+[2017.10.23-10.34.29:919][230]LogFbx: Warning: Triangulating static mesh 10
+[2017.10.23-10.34.30:388][230]LogStaticMesh: Building static mesh PoolBalls_10...
+[2017.10.23-10.34.30:426][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_10.PoolBalls_10
+[2017.10.23-10.34.30:440][230]LogMaterial: Missing cached shader map for material 11Mat, compiling. 
+[2017.10.23-10.34.30:458][230]LogFbx: Warning: Triangulating static mesh 11
+[2017.10.23-10.34.30:938][230]LogStaticMesh: Building static mesh PoolBalls_11...
+[2017.10.23-10.34.30:977][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_11.PoolBalls_11
+[2017.10.23-10.34.30:994][230]LogMaterial: Missing cached shader map for material 12Mat, compiling. 
+[2017.10.23-10.34.31:011][230]LogFbx: Warning: Triangulating static mesh 12
+[2017.10.23-10.34.31:477][230]LogStaticMesh: Building static mesh PoolBalls_12...
+[2017.10.23-10.34.31:517][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_12.PoolBalls_12
+[2017.10.23-10.34.31:532][230]LogMaterial: Missing cached shader map for material 13Mat, compiling. 
+[2017.10.23-10.34.31:548][230]LogFbx: Warning: Triangulating static mesh 13
+[2017.10.23-10.34.32:011][230]LogStaticMesh: Building static mesh PoolBalls_13...
+[2017.10.23-10.34.32:047][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_13.PoolBalls_13
+[2017.10.23-10.34.32:063][230]LogMaterial: Missing cached shader map for material 14Mat, compiling. 
+[2017.10.23-10.34.32:080][230]LogFbx: Warning: Triangulating static mesh 14
+[2017.10.23-10.34.32:571][230]LogStaticMesh: Building static mesh PoolBalls_14...
+[2017.10.23-10.34.32:608][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_14.PoolBalls_14
+[2017.10.23-10.34.32:625][230]LogMaterial: Missing cached shader map for material 15Mat, compiling. 
+[2017.10.23-10.34.32:640][230]LogFbx: Warning: Triangulating static mesh 15
+[2017.10.23-10.34.33:105][230]LogStaticMesh: Building static mesh PoolBalls_15...
+[2017.10.23-10.34.33:145][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_15.PoolBalls_15
+[2017.10.23-10.34.33:183][230]LogMaterial: Missing cached shader map for material 2Mat, compiling. 
+[2017.10.23-10.34.33:229][230]LogFbx: Warning: Triangulating static mesh 2
+[2017.10.23-10.34.33:695][230]LogStaticMesh: Building static mesh PoolBalls_2...
+[2017.10.23-10.34.33:735][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_2.PoolBalls_2
+[2017.10.23-10.34.33:750][230]LogMaterial: Missing cached shader map for material 3Mat, compiling. 
+[2017.10.23-10.34.33:766][230]LogFbx: Warning: Triangulating static mesh 3
+[2017.10.23-10.34.34:707][230]LogStaticMesh: Building static mesh PoolBalls_3...
+[2017.10.23-10.34.34:743][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_3.PoolBalls_3
+[2017.10.23-10.34.34:759][230]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.34.34:775][230]LogFbx: Warning: Triangulating static mesh 4
+[2017.10.23-10.34.35:236][230]LogStaticMesh: Building static mesh PoolBalls_4...
+[2017.10.23-10.34.35:273][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_4.PoolBalls_4
+[2017.10.23-10.34.35:295][230]LogMaterial: Missing cached shader map for material 5Mat, compiling. 
+[2017.10.23-10.34.35:311][230]LogFbx: Warning: Triangulating static mesh 5
+[2017.10.23-10.34.35:814][230]LogStaticMesh: Building static mesh PoolBalls_5...
+[2017.10.23-10.34.35:897][230]LogStaticMesh: Built static mesh [0.08s] /Game/Models/PoolBalls_5.PoolBalls_5
+[2017.10.23-10.34.35:914][230]LogMaterial: Missing cached shader map for material 6Mat, compiling. 
+[2017.10.23-10.34.35:964][230]LogFbx: Warning: Triangulating static mesh 6
+[2017.10.23-10.34.36:557][230]LogStaticMesh: Building static mesh PoolBalls_6...
+[2017.10.23-10.34.36:595][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_6.PoolBalls_6
+[2017.10.23-10.34.36:612][230]LogMaterial: Missing cached shader map for material 7Mat, compiling. 
+[2017.10.23-10.34.36:628][230]LogFbx: Warning: Triangulating static mesh 7
+[2017.10.23-10.34.37:140][230]LogStaticMesh: Building static mesh PoolBalls_7...
+[2017.10.23-10.34.37:178][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_7.PoolBalls_7
+[2017.10.23-10.34.37:194][230]LogMaterial: Missing cached shader map for material 8Mat, compiling. 
+[2017.10.23-10.34.37:211][230]LogFbx: Warning: Triangulating static mesh 8
+[2017.10.23-10.34.37:668][230]LogStaticMesh: Building static mesh PoolBalls_8...
+[2017.10.23-10.34.37:705][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_8.PoolBalls_8
+[2017.10.23-10.34.37:720][230]LogMaterial: Missing cached shader map for material 9Mat, compiling. 
+[2017.10.23-10.34.37:736][230]LogFbx: Warning: Triangulating static mesh 9
+[2017.10.23-10.34.38:196][230]LogStaticMesh: Building static mesh PoolBalls_9...
+[2017.10.23-10.34.38:234][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_9.PoolBalls_9
+[2017.10.23-10.34.38:250][230]LogMaterial: Missing cached shader map for material ball_1Mat, compiling. 
+[2017.10.23-10.34.38:266][230]LogFbx: Warning: Triangulating static mesh ball_1
+[2017.10.23-10.34.38:725][230]LogStaticMesh: Building static mesh PoolBalls_ball_1...
+[2017.10.23-10.34.38:766][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_ball_1.PoolBalls_ball_1
+[2017.10.23-10.34.38:782][230]LogMaterial: Missing cached shader map for material Plane01Mat, compiling. 
+[2017.10.23-10.34.38:799][230]LogFbx: Warning: Triangulating static mesh Plane01
+[2017.10.23-10.34.38:800][230]LogStaticMesh: Building static mesh PoolBalls_Plane01...
+[2017.10.23-10.34.38:800][230]LogStaticMesh: Built static mesh [0.00s] /Game/Models/PoolBalls_Plane01.PoolBalls_Plane01
+[2017.10.23-10.34.38:806][230]LogMaterial: Missing cached shader map for material Sphere01Mat, compiling. 
+[2017.10.23-10.34.38:822][230]LogFbx: Warning: Triangulating static mesh Sphere01
+[2017.10.23-10.34.39:284][230]LogStaticMesh: Building static mesh PoolBalls_Sphere01...
+[2017.10.23-10.34.39:322][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_Sphere01.PoolBalls_Sphere01
+[2017.10.23-10.34.39:337][230]LogMaterial: Missing cached shader map for material Sphere03Mat, compiling. 
+[2017.10.23-10.34.39:389][230]LogFbx: Warning: Triangulating static mesh Sphere03
+[2017.10.23-10.34.39:869][230]LogStaticMesh: Building static mesh PoolBalls_Sphere03...
+[2017.10.23-10.34.39:909][230]LogStaticMesh: Built static mesh [0.04s] /Game/Models/PoolBalls_Sphere03.PoolBalls_Sphere03
+[2017.10.23-10.34.39:927][230]LogMaterial: Missing cached shader map for material Sphere15Mat, compiling. 
+[2017.10.23-10.34.39:944][230]LogFbx: Warning: Triangulating static mesh Sphere15
+[2017.10.23-10.34.40:431][230]LogStaticMesh: Building static mesh PoolBalls_Sphere15...
+[2017.10.23-10.34.40:535][230]LogStaticMesh: Built static mesh [0.10s] /Game/Models/PoolBalls_Sphere15.PoolBalls_Sphere15
+[2017.10.23-10.36.26:058][656]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.10.23-10.36.27:690][847]Cmd: DELETE
+[2017.10.23-10.36.27:690][847]Cmd: ACTOR DELETE
+[2017.10.23-10.36.27:690][847]LogEditorActor: Deleted Actor: Brush
+[2017.10.23-10.36.27:704][847]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.10.23-10.37.10:731][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/1.jpg)
+[2017.10.23-10.37.10:738][407]LogTexture: Display: Building textures: 1 (AutoDXT, 1024X512)
+[2017.10.23-10.37.10:808][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/2.jpg)
+[2017.10.23-10.37.10:815][407]LogTexture: Display: Building textures: 2 (AutoDXT, 1024X512)
+[2017.10.23-10.37.10:886][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/3.jpg)
+[2017.10.23-10.37.10:891][407]LogTexture: Display: Building textures: 3 (AutoDXT, 1024X512)
+[2017.10.23-10.37.10:961][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/4.jpg)
+[2017.10.23-10.37.10:966][407]LogTexture: Display: Building textures: 4 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:031][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/5.jpg)
+[2017.10.23-10.37.11:037][407]LogTexture: Display: Building textures: 5 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:103][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/6.jpg)
+[2017.10.23-10.37.11:108][407]LogTexture: Display: Building textures: 6 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:178][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/7.jpg)
+[2017.10.23-10.37.11:183][407]LogTexture: Display: Building textures: 7 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:248][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/8.jpg)
+[2017.10.23-10.37.11:254][407]LogTexture: Display: Building textures: 8 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:301][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/9.jpg)
+[2017.10.23-10.37.11:307][407]LogTexture: Display: Building textures: 9 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:377][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/10.jpg)
+[2017.10.23-10.37.11:382][407]LogTexture: Display: Building textures: 10 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:452][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/11.jpg)
+[2017.10.23-10.37.11:458][407]LogTexture: Display: Building textures: 11 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:527][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/12.jpg)
+[2017.10.23-10.37.11:533][407]LogTexture: Display: Building textures: 12 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:604][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/13.jpg)
+[2017.10.23-10.37.11:609][407]LogTexture: Display: Building textures: 13 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:677][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/14.jpg)
+[2017.10.23-10.37.11:683][407]LogTexture: Display: Building textures: 14 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:751][407]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/15.jpg)
+[2017.10.23-10.37.11:756][407]LogTexture: Display: Building textures: 15 (AutoDXT, 1024X512)
+[2017.10.23-10.37.11:841][407]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj)
+[2017.10.23-10.37.11:868][407]LogFbx: Loading FBX Scene from ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj
+[2017.10.23-10.37.12:470][407]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-10.37.36:320][407]LogFbx: Loading FBX Scene from ../../../../../../Users/svenos/Downloads/Pool Balls/PoolBalls.obj
+[2017.10.23-10.37.36:929][407]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-10.37.36:930][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/10Mat'
+[2017.10.23-10.37.36:930][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/10Mat'
+[2017.10.23-10.37.36:934][407]LogMaterial: Missing cached shader map for material 10Mat, compiling. 
+[2017.10.23-10.37.36:949][407]LogFbx: Warning: Triangulating static mesh 10
+[2017.10.23-10.37.37:415][407]LogStaticMesh: Building static mesh PoolBalls_10...
+[2017.10.23-10.37.37:451][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_10.PoolBalls_10
+[2017.10.23-10.37.37:466][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/11Mat'
+[2017.10.23-10.37.37:466][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/11Mat'
+[2017.10.23-10.37.37:469][407]LogMaterial: Missing cached shader map for material 11Mat, compiling. 
+[2017.10.23-10.37.37:485][407]LogFbx: Warning: Triangulating static mesh 11
+[2017.10.23-10.37.37:948][407]LogStaticMesh: Building static mesh PoolBalls_11...
+[2017.10.23-10.37.37:986][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_11.PoolBalls_11
+[2017.10.23-10.37.37:998][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/12Mat'
+[2017.10.23-10.37.37:998][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/12Mat'
+[2017.10.23-10.37.38:001][407]LogMaterial: Missing cached shader map for material 12Mat, compiling. 
+[2017.10.23-10.37.38:017][407]LogFbx: Warning: Triangulating static mesh 12
+[2017.10.23-10.37.38:482][407]LogStaticMesh: Building static mesh PoolBalls_12...
+[2017.10.23-10.37.38:518][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_12.PoolBalls_12
+[2017.10.23-10.37.38:532][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/13Mat'
+[2017.10.23-10.37.38:532][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/13Mat'
+[2017.10.23-10.37.38:535][407]LogMaterial: Missing cached shader map for material 13Mat, compiling. 
+[2017.10.23-10.37.38:551][407]LogFbx: Warning: Triangulating static mesh 13
+[2017.10.23-10.37.39:019][407]LogStaticMesh: Building static mesh PoolBalls_13...
+[2017.10.23-10.37.39:057][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_13.PoolBalls_13
+[2017.10.23-10.37.39:069][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/14Mat'
+[2017.10.23-10.37.39:069][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/14Mat'
+[2017.10.23-10.37.39:073][407]LogMaterial: Missing cached shader map for material 14Mat, compiling. 
+[2017.10.23-10.37.39:091][407]LogFbx: Warning: Triangulating static mesh 14
+[2017.10.23-10.37.39:565][407]LogStaticMesh: Building static mesh PoolBalls_14...
+[2017.10.23-10.37.39:602][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_14.PoolBalls_14
+[2017.10.23-10.37.39:615][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/15Mat'
+[2017.10.23-10.37.39:615][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/15Mat'
+[2017.10.23-10.37.39:618][407]LogMaterial: Missing cached shader map for material 15Mat, compiling. 
+[2017.10.23-10.37.39:634][407]LogFbx: Warning: Triangulating static mesh 15
+[2017.10.23-10.37.40:100][407]LogStaticMesh: Building static mesh PoolBalls_15...
+[2017.10.23-10.37.40:138][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_15.PoolBalls_15
+[2017.10.23-10.37.40:152][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/2Mat'
+[2017.10.23-10.37.40:152][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/2Mat'
+[2017.10.23-10.37.40:155][407]LogMaterial: Missing cached shader map for material 2Mat, compiling. 
+[2017.10.23-10.37.40:171][407]LogFbx: Warning: Triangulating static mesh 2
+[2017.10.23-10.37.40:637][407]LogStaticMesh: Building static mesh PoolBalls_2...
+[2017.10.23-10.37.40:675][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_2.PoolBalls_2
+[2017.10.23-10.37.40:688][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/3Mat'
+[2017.10.23-10.37.40:688][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/3Mat'
+[2017.10.23-10.37.40:691][407]LogMaterial: Missing cached shader map for material 3Mat, compiling. 
+[2017.10.23-10.37.40:708][407]LogFbx: Warning: Triangulating static mesh 3
+[2017.10.23-10.37.41:169][407]LogStaticMesh: Building static mesh PoolBalls_3...
+[2017.10.23-10.37.41:208][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_3.PoolBalls_3
+[2017.10.23-10.37.41:230][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/4Mat'
+[2017.10.23-10.37.41:230][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/4Mat'
+[2017.10.23-10.37.41:233][407]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.37.41:249][407]LogFbx: Warning: Triangulating static mesh 4
+[2017.10.23-10.37.41:715][407]LogStaticMesh: Building static mesh PoolBalls_4...
+[2017.10.23-10.37.41:763][407]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Pool_Balls/PoolBalls_4.PoolBalls_4
+[2017.10.23-10.37.41:777][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/5Mat'
+[2017.10.23-10.37.41:777][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/5Mat'
+[2017.10.23-10.37.41:780][407]LogMaterial: Missing cached shader map for material 5Mat, compiling. 
+[2017.10.23-10.37.41:801][407]LogFbx: Warning: Triangulating static mesh 5
+[2017.10.23-10.37.42:270][407]LogStaticMesh: Building static mesh PoolBalls_5...
+[2017.10.23-10.37.42:307][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_5.PoolBalls_5
+[2017.10.23-10.37.42:322][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/6Mat'
+[2017.10.23-10.37.42:322][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/6Mat'
+[2017.10.23-10.37.42:325][407]LogMaterial: Missing cached shader map for material 6Mat, compiling. 
+[2017.10.23-10.37.42:347][407]LogFbx: Warning: Triangulating static mesh 6
+[2017.10.23-10.37.42:815][407]LogStaticMesh: Building static mesh PoolBalls_6...
+[2017.10.23-10.37.42:851][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_6.PoolBalls_6
+[2017.10.23-10.37.42:865][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/7Mat'
+[2017.10.23-10.37.42:865][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/7Mat'
+[2017.10.23-10.37.42:868][407]LogMaterial: Missing cached shader map for material 7Mat, compiling. 
+[2017.10.23-10.37.42:885][407]LogFbx: Warning: Triangulating static mesh 7
+[2017.10.23-10.37.43:553][407]LogStaticMesh: Building static mesh PoolBalls_7...
+[2017.10.23-10.37.43:613][407]LogStaticMesh: Built static mesh [0.06s] /Game/Models/Pool_Balls/PoolBalls_7.PoolBalls_7
+[2017.10.23-10.37.43:658][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/8Mat'
+[2017.10.23-10.37.43:659][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/8Mat'
+[2017.10.23-10.37.43:662][407]LogMaterial: Missing cached shader map for material 8Mat, compiling. 
+[2017.10.23-10.37.43:678][407]LogFbx: Warning: Triangulating static mesh 8
+[2017.10.23-10.37.44:145][407]LogStaticMesh: Building static mesh PoolBalls_8...
+[2017.10.23-10.37.44:182][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_8.PoolBalls_8
+[2017.10.23-10.37.44:196][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/9Mat'
+[2017.10.23-10.37.44:196][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/9Mat'
+[2017.10.23-10.37.44:200][407]LogMaterial: Missing cached shader map for material 9Mat, compiling. 
+[2017.10.23-10.37.44:216][407]LogFbx: Warning: Triangulating static mesh 9
+[2017.10.23-10.37.44:804][407]LogStaticMesh: Building static mesh PoolBalls_9...
+[2017.10.23-10.37.44:875][407]LogStaticMesh: Built static mesh [0.07s] /Game/Models/Pool_Balls/PoolBalls_9.PoolBalls_9
+[2017.10.23-10.37.44:923][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/ball_1Mat'
+[2017.10.23-10.37.44:923][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/ball_1Mat'
+[2017.10.23-10.37.44:927][407]LogMaterial: Missing cached shader map for material ball_1Mat, compiling. 
+[2017.10.23-10.37.44:944][407]LogFbx: Warning: Triangulating static mesh ball_1
+[2017.10.23-10.37.45:438][407]LogStaticMesh: Building static mesh PoolBalls_ball_1...
+[2017.10.23-10.37.45:508][407]LogStaticMesh: Built static mesh [0.07s] /Game/Models/Pool_Balls/PoolBalls_ball_1.PoolBalls_ball_1
+[2017.10.23-10.37.45:523][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/Plane01Mat'
+[2017.10.23-10.37.45:523][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/Plane01Mat'
+[2017.10.23-10.37.45:526][407]LogMaterial: Missing cached shader map for material Plane01Mat, compiling. 
+[2017.10.23-10.37.45:575][407]LogFbx: Warning: Triangulating static mesh Plane01
+[2017.10.23-10.37.45:577][407]LogStaticMesh: Building static mesh PoolBalls_Plane01...
+[2017.10.23-10.37.45:578][407]LogStaticMesh: Built static mesh [0.00s] /Game/Models/Pool_Balls/PoolBalls_Plane01.PoolBalls_Plane01
+[2017.10.23-10.37.45:579][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/Sphere01Mat'
+[2017.10.23-10.37.45:579][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/Sphere01Mat'
+[2017.10.23-10.37.45:584][407]LogMaterial: Missing cached shader map for material Sphere01Mat, compiling. 
+[2017.10.23-10.37.45:632][407]LogFbx: Warning: Triangulating static mesh Sphere01
+[2017.10.23-10.37.46:193][407]LogStaticMesh: Building static mesh PoolBalls_Sphere01...
+[2017.10.23-10.37.46:249][407]LogStaticMesh: Built static mesh [0.06s] /Game/Models/Pool_Balls/PoolBalls_Sphere01.PoolBalls_Sphere01
+[2017.10.23-10.37.46:262][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/Sphere03Mat'
+[2017.10.23-10.37.46:262][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/Sphere03Mat'
+[2017.10.23-10.37.46:300][407]LogMaterial: Missing cached shader map for material Sphere03Mat, compiling. 
+[2017.10.23-10.37.46:317][407]LogFbx: Warning: Triangulating static mesh Sphere03
+[2017.10.23-10.37.46:900][407]LogStaticMesh: Building static mesh PoolBalls_Sphere03...
+[2017.10.23-10.37.46:938][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_Sphere03.PoolBalls_Sphere03
+[2017.10.23-10.37.46:951][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/Sphere15Mat'
+[2017.10.23-10.37.46:951][407]LogLinker: Can't find file '/Game/Models/Pool_Balls/Sphere15Mat'
+[2017.10.23-10.37.46:955][407]LogMaterial: Missing cached shader map for material Sphere15Mat, compiling. 
+[2017.10.23-10.37.46:972][407]LogFbx: Warning: Triangulating static mesh Sphere15
+[2017.10.23-10.37.47:442][407]LogStaticMesh: Building static mesh PoolBalls_Sphere15...
+[2017.10.23-10.37.47:479][407]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Pool_Balls/PoolBalls_Sphere15.PoolBalls_Sphere15
+[2017.10.23-10.38.20:261][463]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.10.23-10.38.20:265][463]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.38.20:331][463]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.38.20:367][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.23-10.38.20:378][463]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.23-10.38.20:547][464]LogSlate: Took 0.000461 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.23-10.38.22:584][618]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.10.23-10.38.22:584][618]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.38.22:584][618]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.38.44:121][581]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.38.44:135][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.23-10.38.44:170][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.23-10.38.44:175][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.23-10.38.45:581][674]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.10.23-10.38.45:581][674]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.38.45:581][674]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.38.50:526][130]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.38.50:545][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.10.23-10.38.52:112][230]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.23-10.38.52:112][230]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.38.52:112][230]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.23-10.38.52:112][230]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.38.57:692][756]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.39.00:389][979]MaterialEditorStats: Base pass shader: 81 instructions
+[2017.10.23-10.39.00:389][979]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.39.00:389][979]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.23-10.39.00:389][979]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.39.11:280][919]LogMaterial: Missing cached shader map for material 9Mat, compiling. 
+[2017.10.23-10.39.11:333][919]LogMaterial: Missing cached shader map for material 9Mat, compiling. 
+[2017.10.23-10.39.11:370][919]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.23-10.39.12:445][963]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.10.23-10.39.12:445][963]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.39.12:445][963]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.39.12:498][965]LogMaterial: Missing cached shader map for material ball_1Mat, compiling. 
+[2017.10.23-10.39.12:548][965]LogMaterial: Missing cached shader map for material ball_1Mat, compiling. 
+[2017.10.23-10.39.12:583][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.23-10.39.13:642][  7]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.10.23-10.39.13:642][  7]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.39.13:642][  7]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.39.14:759][102]LogMaterial: Missing cached shader map for material Plane01Mat, compiling. 
+[2017.10.23-10.39.14:808][102]LogMaterial: Missing cached shader map for material Plane01Mat, compiling. 
+[2017.10.23-10.39.14:845][102]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.23-10.39.15:836][142]MaterialEditorStats: Base pass shader: 80 instructions
+[2017.10.23-10.39.15:836][142]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.39.15:837][142]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.39.31:408][829]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.39.31:552][829]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.39.31:578][829]LogMaterial: Missing cached shader map for material 4Mat, compiling. 
+[2017.10.23-10.39.31:618][829]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 4Mat, compiling. 
+[2017.10.23-10.39.32:287][829]TextureStreamingBuild: Display: Compiling optional shaders took 0.676 seconds.
+[2017.10.23-10.39.37:198][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.23-10.39.37:220][172]LogSavePackage: Save=21.52ms
+[2017.10.23-10.39.37:220][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Untitled_1_Auto1C3DE426E4CEACEBB36455C92B1BC9056.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.10.23-10.39.37:221][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.10.23-10.39.37:222][172]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.034
+[2017.10.23-10.39.37:222][172]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.034
+[2017.10.23-10.39.37:224][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_7] ([1] browsable assets)...
+[2017.10.23-10.39.37:235][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_7.PoolBalls_7]
+[2017.10.23-10.39.37:235][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_7]
+[2017.10.23-10.39.37:247][172]LogSavePackage: Save=11.09ms
+[2017.10.23-10.39.37:247][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_7_Auto12EC201D44CB7A3CF3AFCA8B7C626C898.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_7_Auto1.uasset'
+[2017.10.23-10.39.37:248][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_7_Auto1.uasset
+[2017.10.23-10.39.37:248][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/1] ([1] browsable assets)...
+[2017.10.23-10.39.37:252][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/1.1]
+[2017.10.23-10.39.37:252][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/1]
+[2017.10.23-10.39.37:252][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/1" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:256][172]LogSavePackage: Save=3.76ms
+[2017.10.23-10.39.37:256][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/1_Auto13F4930564A6FBD08360099AC976B0040.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/1_Auto1.uasset'
+[2017.10.23-10.39.37:258][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/1_Auto1.uasset
+[2017.10.23-10.39.37:258][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/2] ([1] browsable assets)...
+[2017.10.23-10.39.37:262][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/2.2]
+[2017.10.23-10.39.37:262][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/2]
+[2017.10.23-10.39.37:262][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/2" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:267][172]LogSavePackage: Save=3.92ms
+[2017.10.23-10.39.37:267][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/2_Auto1E276413444696EDDD75F36990BAF8EE4.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/2_Auto1.uasset'
+[2017.10.23-10.39.37:268][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/2_Auto1.uasset
+[2017.10.23-10.39.37:268][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/3] ([1] browsable assets)...
+[2017.10.23-10.39.37:272][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/3.3]
+[2017.10.23-10.39.37:272][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/3]
+[2017.10.23-10.39.37:273][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/3" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:277][172]LogSavePackage: Save=3.87ms
+[2017.10.23-10.39.37:277][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/3_Auto1682806D147076E4A5D3D848CF15DB6F5.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/3_Auto1.uasset'
+[2017.10.23-10.39.37:278][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/3_Auto1.uasset
+[2017.10.23-10.39.37:278][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/4] ([1] browsable assets)...
+[2017.10.23-10.39.37:282][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/4.4]
+[2017.10.23-10.39.37:283][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/4]
+[2017.10.23-10.39.37:283][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/4" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/4_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:287][172]LogSavePackage: Save=3.95ms
+[2017.10.23-10.39.37:287][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/4_Auto1D8A341F9446BCCC2F5CBD988D8DA57A3.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/4_Auto1.uasset'
+[2017.10.23-10.39.37:288][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/4_Auto1.uasset
+[2017.10.23-10.39.37:288][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/5] ([1] browsable assets)...
+[2017.10.23-10.39.37:293][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/5.5]
+[2017.10.23-10.39.37:293][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/5]
+[2017.10.23-10.39.37:293][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/5" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/5_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:306][172]LogSavePackage: Save=13.22ms
+[2017.10.23-10.39.37:306][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/5_Auto10465B6144CB3574AA261AA86D3ECAFD5.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/5_Auto1.uasset'
+[2017.10.23-10.39.37:308][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/5_Auto1.uasset
+[2017.10.23-10.39.37:308][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/6] ([1] browsable assets)...
+[2017.10.23-10.39.37:312][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/6.6]
+[2017.10.23-10.39.37:312][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/6]
+[2017.10.23-10.39.37:312][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/6" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/6_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:318][172]LogSavePackage: Save=4.00ms
+[2017.10.23-10.39.37:318][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/6_Auto1D847FF1247C745CFDE79258C31698F54.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/6_Auto1.uasset'
+[2017.10.23-10.39.37:319][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/6_Auto1.uasset
+[2017.10.23-10.39.37:319][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/7] ([1] browsable assets)...
+[2017.10.23-10.39.37:324][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/7.7]
+[2017.10.23-10.39.37:324][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/7]
+[2017.10.23-10.39.37:324][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/7" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/7_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:328][172]LogSavePackage: Save=3.89ms
+[2017.10.23-10.39.37:328][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/7_Auto1FDE7E82E4A5A2AEE22932180D7FE2AD3.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/7_Auto1.uasset'
+[2017.10.23-10.39.37:329][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/7_Auto1.uasset
+[2017.10.23-10.39.37:330][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/8] ([1] browsable assets)...
+[2017.10.23-10.39.37:332][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/8.8]
+[2017.10.23-10.39.37:332][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/8]
+[2017.10.23-10.39.37:332][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/8" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/8_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:336][172]LogSavePackage: Save=3.70ms
+[2017.10.23-10.39.37:337][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/8_Auto14CDABF604822FE0281D307ABFD5959B0.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/8_Auto1.uasset'
+[2017.10.23-10.39.37:338][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/8_Auto1.uasset
+[2017.10.23-10.39.37:338][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/9] ([1] browsable assets)...
+[2017.10.23-10.39.37:342][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/9.9]
+[2017.10.23-10.39.37:342][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/9]
+[2017.10.23-10.39.37:342][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/9" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/9_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:347][172]LogSavePackage: Save=3.66ms
+[2017.10.23-10.39.37:347][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/9_Auto16D15B2534E6BB692B4589E94A0402648.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/9_Auto1.uasset'
+[2017.10.23-10.39.37:349][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/9_Auto1.uasset
+[2017.10.23-10.39.37:349][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/10] ([1] browsable assets)...
+[2017.10.23-10.39.37:353][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/10.10]
+[2017.10.23-10.39.37:353][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/10]
+[2017.10.23-10.39.37:353][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/10" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/10_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:357][172]LogSavePackage: Save=3.65ms
+[2017.10.23-10.39.37:358][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/10_Auto1849C05DA4889D40A45027982939473DE.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/10_Auto1.uasset'
+[2017.10.23-10.39.37:359][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/10_Auto1.uasset
+[2017.10.23-10.39.37:359][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/11] ([1] browsable assets)...
+[2017.10.23-10.39.37:363][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/11.11]
+[2017.10.23-10.39.37:363][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/11]
+[2017.10.23-10.39.37:363][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/11" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/11_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:374][172]LogSavePackage: Save=3.82ms
+[2017.10.23-10.39.37:374][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/11_Auto1DAB0C1644FE18D6408E3F1996083AFD4.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/11_Auto1.uasset'
+[2017.10.23-10.39.37:375][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/11_Auto1.uasset
+[2017.10.23-10.39.37:375][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/12] ([1] browsable assets)...
+[2017.10.23-10.39.37:379][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/12.12]
+[2017.10.23-10.39.37:380][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/12]
+[2017.10.23-10.39.37:380][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/12" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/12_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:384][172]LogSavePackage: Save=3.58ms
+[2017.10.23-10.39.37:384][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/12_Auto120EF95DD4A3A7647C6FAD1978259B166.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/12_Auto1.uasset'
+[2017.10.23-10.39.37:385][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/12_Auto1.uasset
+[2017.10.23-10.39.37:385][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/13] ([1] browsable assets)...
+[2017.10.23-10.39.37:389][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/13.13]
+[2017.10.23-10.39.37:389][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/13]
+[2017.10.23-10.39.37:389][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/13" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/13_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:393][172]LogSavePackage: Save=3.50ms
+[2017.10.23-10.39.37:393][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/13_Auto17B433180443FA39E0D91CC92D7CD7583.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/13_Auto1.uasset'
+[2017.10.23-10.39.37:395][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/13_Auto1.uasset
+[2017.10.23-10.39.37:395][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/14] ([1] browsable assets)...
+[2017.10.23-10.39.37:399][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/14.14]
+[2017.10.23-10.39.37:399][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/14]
+[2017.10.23-10.39.37:399][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/14" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/14_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:403][172]LogSavePackage: Save=3.62ms
+[2017.10.23-10.39.37:403][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/14_Auto1EA45297640773CA5B62B50BFF58C934D.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/14_Auto1.uasset'
+[2017.10.23-10.39.37:405][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/14_Auto1.uasset
+[2017.10.23-10.39.37:405][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/Sphere15Mat] ([1] browsable assets)...
+[2017.10.23-10.39.37:416][172]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Pool_Balls/Sphere15Mat.Sphere15Mat]
+[2017.10.23-10.39.37:416][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/Sphere15Mat]
+[2017.10.23-10.39.37:428][172]LogSavePackage: Save=10.70ms
+[2017.10.23-10.39.37:428][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Sphere15Mat_Auto14771CBC14D219A2269CF49BC7CF7E1BB.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/Sphere15Mat_Auto1.uasset'
+[2017.10.23-10.39.37:429][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/Sphere15Mat_Auto1.uasset
+[2017.10.23-10.39.37:429][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/15] ([1] browsable assets)...
+[2017.10.23-10.39.37:433][172]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Models/Pool_Balls/15.15]
+[2017.10.23-10.39.37:433][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/15]
+[2017.10.23-10.39.37:433][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Pool_Balls/15" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/15_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.10.23-10.39.37:438][172]LogSavePackage: Save=3.84ms
+[2017.10.23-10.39.37:438][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/15_Auto1FA4ADCB14AB27AF642D2A7BBB5EEDBAC.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/15_Auto1.uasset'
+[2017.10.23-10.39.37:439][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/15_Auto1.uasset
+[2017.10.23-10.39.37:439][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_10] ([1] browsable assets)...
+[2017.10.23-10.39.37:451][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_10.PoolBalls_10]
+[2017.10.23-10.39.37:451][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_10]
+[2017.10.23-10.39.37:462][172]LogSavePackage: Save=10.61ms
+[2017.10.23-10.39.37:462][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_10_Auto1FC181AFB42A054563A603CAA10B478A3.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_10_Auto1.uasset'
+[2017.10.23-10.39.37:463][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_10_Auto1.uasset
+[2017.10.23-10.39.37:464][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_11] ([1] browsable assets)...
+[2017.10.23-10.39.37:475][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_11.PoolBalls_11]
+[2017.10.23-10.39.37:475][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_11]
+[2017.10.23-10.39.37:486][172]LogSavePackage: Save=10.30ms
+[2017.10.23-10.39.37:486][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_11_Auto1A10776B440E9EB22838DA3BAA255B46B.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_11_Auto1.uasset'
+[2017.10.23-10.39.37:487][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_11_Auto1.uasset
+[2017.10.23-10.39.37:488][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_12] ([1] browsable assets)...
+[2017.10.23-10.39.37:499][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_12.PoolBalls_12]
+[2017.10.23-10.39.37:499][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_12]
+[2017.10.23-10.39.37:511][172]LogSavePackage: Save=10.57ms
+[2017.10.23-10.39.37:511][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_12_Auto15246D77F40554B0A4FD529A981E17D1C.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_12_Auto1.uasset'
+[2017.10.23-10.39.37:512][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_12_Auto1.uasset
+[2017.10.23-10.39.37:512][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_13] ([1] browsable assets)...
+[2017.10.23-10.39.37:524][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_13.PoolBalls_13]
+[2017.10.23-10.39.37:524][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_13]
+[2017.10.23-10.39.37:535][172]LogSavePackage: Save=10.62ms
+[2017.10.23-10.39.37:535][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_13_Auto1B93C35044F969E10BFEF6DA15D6A9967.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_13_Auto1.uasset'
+[2017.10.23-10.39.37:536][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_13_Auto1.uasset
+[2017.10.23-10.39.37:536][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_14] ([1] browsable assets)...
+[2017.10.23-10.39.37:548][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_14.PoolBalls_14]
+[2017.10.23-10.39.37:548][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_14]
+[2017.10.23-10.39.37:560][172]LogSavePackage: Save=10.82ms
+[2017.10.23-10.39.37:560][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_14_Auto115B43AAB4F3BA6EBE87F92826FA41F39.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_14_Auto1.uasset'
+[2017.10.23-10.39.37:561][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_14_Auto1.uasset
+[2017.10.23-10.39.37:561][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_15] ([1] browsable assets)...
+[2017.10.23-10.39.37:573][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_15.PoolBalls_15]
+[2017.10.23-10.39.37:573][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_15]
+[2017.10.23-10.39.37:584][172]LogSavePackage: Save=10.44ms
+[2017.10.23-10.39.37:584][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_15_Auto10BF6CB8B46ACA85F02FEC3A1E917E727.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_15_Auto1.uasset'
+[2017.10.23-10.39.37:585][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_15_Auto1.uasset
+[2017.10.23-10.39.37:585][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_2] ([1] browsable assets)...
+[2017.10.23-10.39.37:598][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_2.PoolBalls_2]
+[2017.10.23-10.39.37:598][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_2]
+[2017.10.23-10.39.37:609][172]LogSavePackage: Save=10.75ms
+[2017.10.23-10.39.37:609][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_2_Auto15B88218D41DBE2B2BC9867852CCE20F7.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_2_Auto1.uasset'
+[2017.10.23-10.39.37:610][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_2_Auto1.uasset
+[2017.10.23-10.39.37:610][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_3] ([1] browsable assets)...
+[2017.10.23-10.39.37:622][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_3.PoolBalls_3]
+[2017.10.23-10.39.37:622][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_3]
+[2017.10.23-10.39.37:634][172]LogSavePackage: Save=11.26ms
+[2017.10.23-10.39.37:634][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_3_Auto199A2E4204E8BA5DC838BCA8D9C9F9C0D.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_3_Auto1.uasset'
+[2017.10.23-10.39.37:635][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_3_Auto1.uasset
+[2017.10.23-10.39.37:636][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_4] ([1] browsable assets)...
+[2017.10.23-10.39.37:647][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_4.PoolBalls_4]
+[2017.10.23-10.39.37:647][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_4]
+[2017.10.23-10.39.37:658][172]LogSavePackage: Save=10.13ms
+[2017.10.23-10.39.37:658][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_4_Auto112BA93F0424E2AA071CF809BAA9AC146.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_4_Auto1.uasset'
+[2017.10.23-10.39.37:659][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_4_Auto1.uasset
+[2017.10.23-10.39.37:659][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_5] ([1] browsable assets)...
+[2017.10.23-10.39.37:671][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_5.PoolBalls_5]
+[2017.10.23-10.39.37:671][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_5]
+[2017.10.23-10.39.37:681][172]LogSavePackage: Save=10.06ms
+[2017.10.23-10.39.37:682][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_5_Auto174A4B2A24572F861692D4C9CBBC4E147.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_5_Auto1.uasset'
+[2017.10.23-10.39.37:682][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_5_Auto1.uasset
+[2017.10.23-10.39.37:683][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_6] ([1] browsable assets)...
+[2017.10.23-10.39.37:694][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_6.PoolBalls_6]
+[2017.10.23-10.39.37:694][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_6]
+[2017.10.23-10.39.37:705][172]LogSavePackage: Save=10.11ms
+[2017.10.23-10.39.37:705][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_6_Auto1CFF4EDAF4970E5126F7659879B196E9D.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_6_Auto1.uasset'
+[2017.10.23-10.39.37:706][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_6_Auto1.uasset
+[2017.10.23-10.39.37:706][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_8] ([1] browsable assets)...
+[2017.10.23-10.39.37:718][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_8.PoolBalls_8]
+[2017.10.23-10.39.37:718][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_8]
+[2017.10.23-10.39.37:728][172]LogSavePackage: Save=10.05ms
+[2017.10.23-10.39.37:729][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_8_Auto13D7879FB4DF10D088D78968D10045E40.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_8_Auto1.uasset'
+[2017.10.23-10.39.37:729][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_8_Auto1.uasset
+[2017.10.23-10.39.37:730][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_9] ([1] browsable assets)...
+[2017.10.23-10.39.37:741][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_9.PoolBalls_9]
+[2017.10.23-10.39.37:741][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_9]
+[2017.10.23-10.39.37:752][172]LogSavePackage: Save=10.05ms
+[2017.10.23-10.39.37:752][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_9_Auto1294D591E4E06751E389CDE9C312B5383.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_9_Auto1.uasset'
+[2017.10.23-10.39.37:753][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_9_Auto1.uasset
+[2017.10.23-10.39.37:753][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_ball_1] ([1] browsable assets)...
+[2017.10.23-10.39.37:765][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_ball_1.PoolBalls_ball_1]
+[2017.10.23-10.39.37:765][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_ball_1]
+[2017.10.23-10.39.37:775][172]LogSavePackage: Save=10.30ms
+[2017.10.23-10.39.37:775][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_ball_1_Auto1F74776C041C3A6B8D79BCD9BF685DA7C.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_ball_1_Auto1.uasset'
+[2017.10.23-10.39.37:776][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_ball_1_Auto1.uasset
+[2017.10.23-10.39.37:777][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_Plane01] ([1] browsable assets)...
+[2017.10.23-10.39.37:788][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_Plane01.PoolBalls_Plane01]
+[2017.10.23-10.39.37:788][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_Plane01]
+[2017.10.23-10.39.37:799][172]LogSavePackage: Save=9.66ms
+[2017.10.23-10.39.37:799][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_Plane01_Auto11FDD88634783734750FE039AF7A196DC.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_Plane01_Auto1.uasset'
+[2017.10.23-10.39.37:800][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_Plane01_Auto1.uasset
+[2017.10.23-10.39.37:800][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_Sphere01] ([1] browsable assets)...
+[2017.10.23-10.39.37:812][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_Sphere01.PoolBalls_Sphere01]
+[2017.10.23-10.39.37:812][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_Sphere01]
+[2017.10.23-10.39.37:822][172]LogSavePackage: Save=9.89ms
+[2017.10.23-10.39.37:822][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_Sphere01_Auto1CDAF026B4A9BE5F0BDE574B18373B579.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_Sphere01_Auto1.uasset'
+[2017.10.23-10.39.37:823][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_Sphere01_Auto1.uasset
+[2017.10.23-10.39.37:823][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/Sphere01Mat] ([1] browsable assets)...
+[2017.10.23-10.39.37:835][172]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Pool_Balls/Sphere01Mat.Sphere01Mat]
+[2017.10.23-10.39.37:836][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/Sphere01Mat]
+[2017.10.23-10.39.37:847][172]LogSavePackage: Save=9.79ms
+[2017.10.23-10.39.37:847][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Sphere01Mat_Auto17D57DFA247CF626733E56393DFDF759E.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/Sphere01Mat_Auto1.uasset'
+[2017.10.23-10.39.37:848][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/Sphere01Mat_Auto1.uasset
+[2017.10.23-10.39.37:848][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_Sphere03] ([1] browsable assets)...
+[2017.10.23-10.39.37:860][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_Sphere03.PoolBalls_Sphere03]
+[2017.10.23-10.39.37:860][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_Sphere03]
+[2017.10.23-10.39.37:870][172]LogSavePackage: Save=9.71ms
+[2017.10.23-10.39.37:870][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_Sphere03_Auto1B4A74A7148E5FEAC7D58A9A373792080.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_Sphere03_Auto1.uasset'
+[2017.10.23-10.39.37:871][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_Sphere03_Auto1.uasset
+[2017.10.23-10.39.37:871][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/Sphere03Mat] ([1] browsable assets)...
+[2017.10.23-10.39.37:883][172]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Pool_Balls/Sphere03Mat.Sphere03Mat]
+[2017.10.23-10.39.37:883][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/Sphere03Mat]
+[2017.10.23-10.39.37:893][172]LogSavePackage: Save=9.53ms
+[2017.10.23-10.39.37:893][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Sphere03Mat_Auto18B368C67417C95ABED45A9B99214E5E3.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/Sphere03Mat_Auto1.uasset'
+[2017.10.23-10.39.37:894][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/Sphere03Mat_Auto1.uasset
+[2017.10.23-10.39.37:894][172]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Pool_Balls/PoolBalls_Sphere15] ([1] browsable assets)...
+[2017.10.23-10.39.37:906][172]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Pool_Balls/PoolBalls_Sphere15.PoolBalls_Sphere15]
+[2017.10.23-10.39.37:906][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Pool_Balls/PoolBalls_Sphere15]
+[2017.10.23-10.39.37:916][172]LogSavePackage: Save=9.84ms
+[2017.10.23-10.39.37:916][172]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBalls_Sphere15_Auto180FB8CCC4F53C4CF5ED8E5992F78CE09.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_Sphere15_Auto1.uasset'
+[2017.10.23-10.39.37:917][172]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Autosaves/Game/Models/Pool_Balls/PoolBalls_Sphere15_Auto1.uasset
+[2017.10.23-10.39.37:917][172]LogFileHelpers: Auto-saving content packages took 0.693
+[2017.10.23-10.40.19:222][921]LogSavePackage: Save=21.26ms
+[2017.10.23-10.40.19:222][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/15765C9E84FE8D7EA91D16AB811B90461.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/1.uasset'
+[2017.10.23-10.40.19:224][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/1.uasset
+[2017.10.23-10.40.19:254][921]LogSavePackage: Save=20.24ms
+[2017.10.23-10.40.19:254][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/10963B31D24DA2DE2FF06F78B613B2A34E.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/10.uasset'
+[2017.10.23-10.40.19:256][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/10.uasset
+[2017.10.23-10.40.19:285][921]LogSavePackage: Save=20.50ms
+[2017.10.23-10.40.19:285][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/1117A96C164DB1697F4634CAA7AE5869D9.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/11.uasset'
+[2017.10.23-10.40.19:287][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/11.uasset
+[2017.10.23-10.40.19:317][921]LogSavePackage: Save=20.31ms
+[2017.10.23-10.40.19:317][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/12FFF6AD9543681C3BBAC2F891F3418EF6.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/12.uasset'
+[2017.10.23-10.40.19:318][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/12.uasset
+[2017.10.23-10.40.19:347][921]LogSavePackage: Save=19.70ms
+[2017.10.23-10.40.19:347][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/135778DD21439FC47FB03B93984FCF3BBC.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/13.uasset'
+[2017.10.23-10.40.19:349][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/13.uasset
+[2017.10.23-10.40.19:378][921]LogSavePackage: Save=19.49ms
+[2017.10.23-10.40.19:378][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/14E8F633CA40AE4AB5195D4095E3512D71.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/14.uasset'
+[2017.10.23-10.40.19:379][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/14.uasset
+[2017.10.23-10.40.19:409][921]LogSavePackage: Save=20.17ms
+[2017.10.23-10.40.19:409][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/1522B79AFA4F45D8755272F0BD1F111B9F.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/15.uasset'
+[2017.10.23-10.40.19:411][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/15.uasset
+[2017.10.23-10.40.19:438][921]LogSavePackage: Save=20.31ms
+[2017.10.23-10.40.19:438][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/29A3BBE0C466958B3AC48D88909E70F46.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/2.uasset'
+[2017.10.23-10.40.19:440][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/2.uasset
+[2017.10.23-10.40.19:467][921]LogSavePackage: Save=20.10ms
+[2017.10.23-10.40.19:467][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/3DC3609CB4CFD00CD69526A9525A72A09.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/3.uasset'
+[2017.10.23-10.40.19:469][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/3.uasset
+[2017.10.23-10.40.19:496][921]LogSavePackage: Save=19.86ms
+[2017.10.23-10.40.19:496][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/43F8E248E485EDFDF59897FA8A6E99A0D.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/4.uasset'
+[2017.10.23-10.40.19:498][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/4.uasset
+[2017.10.23-10.40.19:525][921]LogSavePackage: Save=20.06ms
+[2017.10.23-10.40.19:525][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/58C2DEB3C4EC2108E3D58698E69561FCD.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/5.uasset'
+[2017.10.23-10.40.19:527][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/5.uasset
+[2017.10.23-10.40.19:558][921]LogSavePackage: Save=20.04ms
+[2017.10.23-10.40.19:558][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/680C9DE5E4ECD00BE65606487164ECF20.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/6.uasset'
+[2017.10.23-10.40.19:559][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/6.uasset
+[2017.10.23-10.40.19:589][921]LogSavePackage: Save=19.96ms
+[2017.10.23-10.40.19:589][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/7811ED0BF44A9028579EB9D8B802DBDD9.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/7.uasset'
+[2017.10.23-10.40.19:590][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/7.uasset
+[2017.10.23-10.40.19:617][921]LogSavePackage: Save=19.32ms
+[2017.10.23-10.40.19:617][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/8D913BEED43B67A7BAEB18B83D943F2F0.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/8.uasset'
+[2017.10.23-10.40.19:618][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/8.uasset
+[2017.10.23-10.40.19:648][921]LogSavePackage: Save=19.77ms
+[2017.10.23-10.40.19:648][921]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/9F9E8D523407562AA266FC4A436087343.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/9.uasset'
+[2017.10.23-10.40.19:649][921]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/9.uasset
+[2017.10.23-10.40.35:916][759]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.40.35:971][759]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.40.35:985][759]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.40.37:490][850]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.23-10.40.37:490][850]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.40.37:490][850]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.40.45:609][683]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.40.45:622][683]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.40.46:768][779]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.40.46:768][779]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.40.46:768][779]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.40.57:042][924]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.40.58:321][ 43]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.40.58:321][ 43]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.40.58:321][ 43]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.41.02:091][443]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.03:580][588]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.03:580][588]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.03:580][588]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.41.03:723][604]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.04:778][683]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.04:778][683]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.04:778][683]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.41.14:209][694]LogMaterialEditor: Applying material PoolBall_Mat
+[2017.10.23-10.41.14:684][694]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.14:734][694]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.14:758][694]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.14:791][694]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat, compiling. 
+[2017.10.23-10.41.15:500][694]TextureStreamingBuild: Display: Compiling optional shaders took 0.716 seconds.
+[2017.10.23-10.41.17:023][759]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.17:023][759]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.17:023][759]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.23-10.41.21:111][203]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.22:303][303]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.22:303][303]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.22:303][303]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.41.23:582][442]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.24:706][526]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.24:706][526]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.24:706][526]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.41.25:554][619]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.26:788][731]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.26:788][731]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.26:788][731]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.41.27:307][789]LogEditorTransaction: Undo Edit Default Value
+[2017.10.23-10.41.27:311][789]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.27:333][789]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.27:421][789]LogSlate: Took 0.000637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.23-10.41.28:662][881]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.28:662][881]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.28:662][881]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.41.32:563][312]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.33:814][426]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.33:814][426]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.33:814][426]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.23-10.41.34:681][517]LogMaterialEditor: Applying material PoolBall_Mat
+[2017.10.23-10.41.35:162][517]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.35:340][517]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.35:410][517]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.41.35:464][517]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat, compiling. 
+[2017.10.23-10.41.35:954][517]TextureStreamingBuild: Display: Compiling optional shaders took 0.497 seconds.
+[2017.10.23-10.41.38:175][709]MaterialEditorStats: Base pass shader: 83 instructions
+[2017.10.23-10.41.38:176][709]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.23-10.41.38:176][709]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.23-10.42.43:665][ 70]LogRenderer: Reallocating scene render targets to support 1392x924 Format 10 NumSamples 1 (Frame:1).
+[2017.10.23-10.42.57:051][505]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.42.57:063][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.23-10.42.57:067][505]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.42.57:071][505]LogMaterial: Warning: Failed to compile Material /Engine/Transient.PoolBall_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.23-10.42.57:071][505]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.23-10.42.57:097][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.23-10.42.57:100][505]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.10.23-10.42.59:883][782]LogMaterialEditor: Saving and Compiling material PoolBall_Mat
+[2017.10.23-10.43.04:649][782]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.04:650][782]LogMaterial: Warning: Failed to compile Material /Engine/Transient.PoolBall_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.23-10.43.04:650][782]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.23-10.43.04:673][782]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.04:673][782]LogMaterial: Warning: Failed to compile Material /Game/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat.PoolBall_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.23-10.43.04:673][782]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.23-10.43.04:676][782]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.04:676][782]LogMaterial: Warning: Failed to compile Material /Game/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat.PoolBall_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.23-10.43.04:676][782]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.23-10.43.04:705][782]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat, compiling. 
+[2017.10.23-10.43.04:711][782]TextureStreamingBuild: Display: Compiling optional shaders took 0.011 seconds.
+[2017.10.23-10.43.04:826][782]LogSavePackage: Save=12.16ms
+[2017.10.23-10.43.04:826][782]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat456B426F45A91D3DBD90B1A817B8DCF6.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat.uasset'
+[2017.10.23-10.43.04:827][782]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat.uasset
+[2017.10.23-10.43.20:679][292]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.20:679][292]LogMaterial: Warning: Failed to compile Material /Engine/Transient.PoolBall_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.23-10.43.20:679][292]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.23-10.43.20:683][292]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.23-10.43.22:342][452]LogMaterialEditor: Applying material PoolBall_Mat
+[2017.10.23-10.43.25:069][559]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.25:070][559]LogMaterial: Warning: Failed to compile Material /Engine/Transient.PoolBall_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.23-10.43.25:070][559]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.10.23-10.43.25:076][559]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.23-10.43.26:399][675]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.26:426][675]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.23-10.43.27:837][756]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.23-10.43.27:837][756]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.43.27:837][756]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.23-10.43.27:837][756]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.43.28:099][778]LogMaterialEditor: Applying material PoolBall_Mat
+[2017.10.23-10.43.28:573][778]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.28:627][778]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.28:652][778]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.43.28:702][778]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat, compiling. 
+[2017.10.23-10.43.29:462][778]TextureStreamingBuild: Display: Compiling optional shaders took 0.767 seconds.
+[2017.10.23-10.43.30:888][858]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.23-10.43.30:888][858]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.43.30:888][858]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.23-10.43.30:888][858]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.43.43:916][271]LogMaterialEditor: Saving and Compiling material PoolBall_Mat
+[2017.10.23-10.43.43:963][271]LogSavePackage: Save=11.95ms
+[2017.10.23-10.43.43:963][271]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_MatCD8406A64AB2B49DBFC442B827754126.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat.uasset'
+[2017.10.23-10.43.43:964][271]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat.uasset
+[2017.10.23-10.43.46:829][571]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_1, compiling. 
+[2017.10.23-10.43.46:954][571]TextureStreamingBuild: Display: Compiling optional shaders took 0.129 seconds.
+[2017.10.23-10.43.46:979][571]LogSavePackage: Save=10.76ms
+[2017.10.23-10.43.46:979][571]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_172E3EF144F653C60883106A3BDF0937A.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_1.uasset'
+[2017.10.23-10.43.46:980][571]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_1.uasset
+[2017.10.23-10.44.53:930][493]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.44.53:943][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.23-10.44.53:950][493]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.44.54:010][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.10.23-10.44.54:015][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.23-10.44.54:018][493]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.44.54:018][493]LogMaterial: Warning: Failed to compile Material /Engine/Transient.PoolBall_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.23-10.44.54:018][493]LogMaterial: Warning: 	(Node TextureSampleParameter2D) Coercion failed: Local0.rgb: float3 -> float2
+[2017.10.23-10.44.54:045][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.23-10.44.54:048][493]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Coercion failed: Local0.rgb: float3 -> float2
+[2017.10.23-10.44.57:171][774]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.44.57:208][774]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.23-10.44.59:637][974]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.23-10.44.59:637][974]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.44.59:637][974]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.23-10.44.59:637][974]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.45.10:400][968]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.45.10:414][968]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.23-10.45.11:553][ 22]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.23-10.45.11:553][ 22]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.45.11:553][ 22]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.23-10.45.11:553][ 22]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.45.12:458][106]LogMaterialEditor: Applying material PoolBall_Mat
+[2017.10.23-10.45.12:942][106]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.45.12:989][106]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.45.13:036][106]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.45.13:141][106]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat, compiling. 
+[2017.10.23-10.45.13:779][106]TextureStreamingBuild: Display: Compiling optional shaders took 0.646 seconds.
+[2017.10.23-10.45.15:784][281]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.23-10.45.15:784][281]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.45.15:784][281]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.23-10.45.15:784][281]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.45.21:645][836]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.45.21:661][836]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.23-10.45.22:717][885]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.23-10.45.22:717][885]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.45.22:717][885]MaterialEditorStats: Texture samplers: 2/16
+[2017.10.23-10.45.22:717][885]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.45.23:707][977]LogMaterialEditor: Applying material PoolBall_Mat
+[2017.10.23-10.45.24:186][977]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.45.24:236][977]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.45.24:261][977]LogMaterial: Missing cached shader map for material PoolBall_Mat, compiling. 
+[2017.10.23-10.45.24:316][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat, compiling. 
+[2017.10.23-10.45.25:051][977]TextureStreamingBuild: Display: Compiling optional shaders took 0.743 seconds.
+[2017.10.23-10.45.26:573][ 85]MaterialEditorStats: Base pass shader: 86 instructions
+[2017.10.23-10.45.26:573][ 85]MaterialEditorStats: Vertex shader: 31 instructions
+[2017.10.23-10.45.26:573][ 85]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.23-10.45.26:573][ 85]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.23-10.45.35:154][ 30]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_2, compiling. 
+[2017.10.23-10.45.35:289][ 30]TextureStreamingBuild: Display: Compiling optional shaders took 0.139 seconds.
+[2017.10.23-10.45.35:311][ 30]LogSavePackage: Save=10.92ms
+[2017.10.23-10.45.35:311][ 30]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_2085AE6C04EBC66D150864A979332DCE3.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_2.uasset'
+[2017.10.23-10.45.35:313][ 30]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_2.uasset
+[2017.10.23-10.45.37:784][287]LogMaterialEditor: Saving and Compiling material PoolBall_Mat
+[2017.10.23-10.45.37:838][287]LogSavePackage: Save=12.22ms
+[2017.10.23-10.45.37:838][287]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat2DB723D0415C56BBB53B81AB1E889785.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat.uasset'
+[2017.10.23-10.45.37:840][287]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat.uasset
+[2017.10.23-10.45.58:187][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_3, compiling. 
+[2017.10.23-10.45.58:513][303]TextureStreamingBuild: Display: Compiling optional shaders took 0.331 seconds.
+[2017.10.23-10.45.58:535][303]LogSavePackage: Save=10.62ms
+[2017.10.23-10.45.58:535][303]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_38B0D2E814BF1C57902E6AFB6816D432F.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_3.uasset'
+[2017.10.23-10.45.58:536][303]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_3.uasset
+[2017.10.23-10.46.04:935][967]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_4, compiling. 
+[2017.10.23-10.46.05:070][967]TextureStreamingBuild: Display: Compiling optional shaders took 0.140 seconds.
+[2017.10.23-10.46.05:092][967]LogSavePackage: Save=10.84ms
+[2017.10.23-10.46.05:092][967]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_4FA0FB29341DBB217C1393089C6D62E54.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_4.uasset'
+[2017.10.23-10.46.05:093][967]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_4.uasset
+[2017.10.23-10.46.10:485][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_5, compiling. 
+[2017.10.23-10.46.10:620][536]TextureStreamingBuild: Display: Compiling optional shaders took 0.139 seconds.
+[2017.10.23-10.46.10:642][536]LogSavePackage: Save=10.80ms
+[2017.10.23-10.46.10:642][536]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_575009A7C44C9DDFE0A791D916EBB3A3B.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_5.uasset'
+[2017.10.23-10.46.10:643][536]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_5.uasset
+[2017.10.23-10.46.17:348][251]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_6, compiling. 
+[2017.10.23-10.46.17:483][251]TextureStreamingBuild: Display: Compiling optional shaders took 0.139 seconds.
+[2017.10.23-10.46.17:505][251]LogSavePackage: Save=10.77ms
+[2017.10.23-10.46.17:505][251]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_657DD8A464B92198FFB2FD1A7AFAC5F4C.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_6.uasset'
+[2017.10.23-10.46.17:506][251]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_6.uasset
+[2017.10.23-10.47.22:340][597]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_7, compiling. 
+[2017.10.23-10.47.22:677][597]TextureStreamingBuild: Display: Compiling optional shaders took 0.341 seconds.
+[2017.10.23-10.47.22:699][597]LogSavePackage: Save=10.84ms
+[2017.10.23-10.47.22:699][597]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_78CF8A0694107722C0248D487B5F15CFA.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_7.uasset'
+[2017.10.23-10.47.22:700][597]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_7.uasset
+[2017.10.23-10.47.31:571][561]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_8, compiling. 
+[2017.10.23-10.47.31:706][561]TextureStreamingBuild: Display: Compiling optional shaders took 0.139 seconds.
+[2017.10.23-10.47.31:727][561]LogSavePackage: Save=10.24ms
+[2017.10.23-10.47.31:727][561]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_82A213D5B40F7FCFE760B0D90147F6772.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_8.uasset'
+[2017.10.23-10.47.31:728][561]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_8.uasset
+[2017.10.23-10.47.42:554][766]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_9, compiling. 
+[2017.10.23-10.47.42:689][766]TextureStreamingBuild: Display: Compiling optional shaders took 0.140 seconds.
+[2017.10.23-10.47.42:709][766]LogSavePackage: Save=10.39ms
+[2017.10.23-10.47.42:709][766]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_9A41B46E44704C7918DB02AB8695D9AB2.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_9.uasset'
+[2017.10.23-10.47.42:710][766]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_9.uasset
+[2017.10.23-10.47.49:368][515]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_10, compiling. 
+[2017.10.23-10.47.49:503][515]TextureStreamingBuild: Display: Compiling optional shaders took 0.139 seconds.
+[2017.10.23-10.47.49:524][515]LogSavePackage: Save=10.50ms
+[2017.10.23-10.47.49:524][515]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_106B0B67814403348EFF416F83C3242C5A.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_10.uasset'
+[2017.10.23-10.47.49:526][515]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_10.uasset
+[2017.10.23-10.47.55:401][178]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_11, compiling. 
+[2017.10.23-10.47.55:547][178]TextureStreamingBuild: Display: Compiling optional shaders took 0.150 seconds.
+[2017.10.23-10.47.55:568][178]LogSavePackage: Save=10.24ms
+[2017.10.23-10.47.55:568][178]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_115FCE03B84D8BA918D6934E854269F392.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_11.uasset'
+[2017.10.23-10.47.55:569][178]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_11.uasset
+[2017.10.23-10.48.10:800][955]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_12, compiling. 
+[2017.10.23-10.48.10:946][955]TextureStreamingBuild: Display: Compiling optional shaders took 0.150 seconds.
+[2017.10.23-10.48.10:968][955]LogSavePackage: Save=10.61ms
+[2017.10.23-10.48.10:968][955]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_1242294E4C4FDE03DD5841039A21FBF7B3.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_12.uasset'
+[2017.10.23-10.48.10:970][955]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_12.uasset
+[2017.10.23-10.48.14:799][375]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_13, compiling. 
+[2017.10.23-10.48.14:935][375]TextureStreamingBuild: Display: Compiling optional shaders took 0.140 seconds.
+[2017.10.23-10.48.14:956][375]LogSavePackage: Save=10.22ms
+[2017.10.23-10.48.14:956][375]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_1304865EA5413C6D2506D372A685D35EE2.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_13.uasset'
+[2017.10.23-10.48.14:957][375]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_13.uasset
+[2017.10.23-10.48.20:930][ 52]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_14, compiling. 
+[2017.10.23-10.48.21:066][ 52]TextureStreamingBuild: Display: Compiling optional shaders took 0.140 seconds.
+[2017.10.23-10.48.21:086][ 52]LogSavePackage: Save=10.10ms
+[2017.10.23-10.48.21:086][ 52]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_145F6075A54FD3C40068E706930E457F1F.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_14.uasset'
+[2017.10.23-10.48.21:088][ 52]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_14.uasset
+[2017.10.23-10.48.26:281][643]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy PoolBall_Mat_15, compiling. 
+[2017.10.23-10.48.26:416][643]TextureStreamingBuild: Display: Compiling optional shaders took 0.139 seconds.
+[2017.10.23-10.48.26:437][643]LogSavePackage: Save=10.26ms
+[2017.10.23-10.48.26:437][643]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/PoolBall_Mat_1506594184436A2F03678EADB9C6492D42.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_15.uasset'
+[2017.10.23-10.48.26:438][643]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Models/Pool_Balls/Materials_And_Textures/PoolBall_Mat_15.uasset
+[2017.10.23-10.49.38:223][230]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.010
+[2017.10.23-10.49.49:369][ 22]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/svenos/Downloads/PoolTable.obj)
+[2017.10.23-10.49.49:429][ 22]LogFbx: Loading FBX Scene from ../../../../../../Users/svenos/Downloads/PoolTable.obj
+[2017.10.23-10.49.51:000][ 22]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-10.49.54:406][ 22]LogFbx: Loading FBX Scene from ../../../../../../Users/svenos/Downloads/PoolTable.obj
+[2017.10.23-10.49.55:987][ 22]LogFbx: FBX Scene Loaded Succesfully
+[2017.10.23-10.49.55:997][ 22]LogLinker: Can't find file '/Game/Models/defaultMat'
+[2017.10.23-10.49.55:997][ 22]LogLinker: Can't find file '/Game/Models/defaultMat'
+[2017.10.23-10.49.56:000][ 22]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2017.10.23-10.49.56:015][ 22]LogFbx: Warning: Triangulating static mesh default
+[2017.10.23-10.50.26:191][ 22]LogStaticMesh: Building static mesh PoolTable...
