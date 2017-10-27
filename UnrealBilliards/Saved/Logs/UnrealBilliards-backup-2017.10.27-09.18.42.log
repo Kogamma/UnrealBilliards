@@ -1,0 +1,1184 @@
+﻿Log file open, 10/26/17 16:22:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UnrealBilliards
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1815128685) SRandInit(1815128685).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3709383, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.287926
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3709383
+LogInit: Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Oct 20 2017 10:39:19
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.26-14.22.42:992][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-14.22.42:992][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.26-14.22.43:000][  0]LogInit: Computer: 3SE-SPEL-65
+[2017.10.26-14.22.43:000][  0]LogInit: User: svenos
+[2017.10.26-14.22.43:000][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.26-14.22.43:000][  0]LogInit: High frequency timer resolution =3.123222 MHz
+[2017.10.26-14.22.43:000][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.26-14.22.43:000][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.26-14.22.43:000][  0]LogMemory: Process Physical Memory: 273.49 MB used, 273.49 MB peak
+[2017.10.26-14.22.43:000][  0]LogMemory: Process Virtual Memory: 274.28 MB used, 274.28 MB peak
+[2017.10.26-14.22.43:000][  0]LogMemory: Physical Memory: 1732.03 MB used,  6403.17 MB free, 8135.20 MB total
+[2017.10.26-14.22.43:000][  0]LogMemory: Virtual Memory: 630.15 MB used,  6403.17 MB free, 8388608.00 MB total
+[2017.10.26-14.22.43:132][  0]LogInit: Using OS detected language (sv-SE).
+[2017.10.26-14.22.43:132][  0]LogInit: Using OS detected locale (sv-SE).
+[2017.10.26-14.22.43:136][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the language.
+[2017.10.26-14.22.43:136][  0]LogTextLocalizationManager: No localization for 'sv-SE' exists, so 'en' will be used for the locale.
+[2017.10.26-14.22.43:551][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2017.10.26-14.22.43:551][  0]LogWindows: File 'shcore.dll' does not exist
+[2017.10.26-14.22.43:551][  0]LogInit: Setting process to DPI aware
+[2017.10.26-14.22.43:558][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2017.10.26-14.22.43:558][  0]LogWindows: File 'shcore.dll' does not exist
+[2017.10.26-14.22.43:558][  0]LogInit: Setting process to DPI aware
+[2017.10.26-14.22.44:004][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.26-14.22.44:049][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.26-14.22.44:049][  0]LogD3D11RHI:       4007/0/3811 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.26-14.22.44:049][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.26-14.22.44:052][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.26-14.22.44:052][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.26-14.22.44:053][  0]LogWindows: EnumDisplayDevices:
+[2017.10.26-14.22.44:053][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.26-14.22.44:053][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.10.26-14.22.44:054][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.26-14.22.44:054][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.26-14.22.44:054][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.26-14.22.44:054][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.26-14.22.44:054][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.26-14.22.44:054][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.26-14.22.44:054][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.26-14.22.44:054][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2017.10.26-14.22.44:054][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2017.10.26-14.22.44:054][  0]LogRHI: Texture pool is 2805 MB (70% of 4007 MB)
+[2017.10.26-14.22.44:063][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.26-14.22.44:077][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.26-14.22.44:177][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Intermediate/Shaders/WorkingDirectory/7924/).
+[2017.10.26-14.22.44:177][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/svenos/AppData/Local/Temp/UnrealShaderWorkingDir/6C8B44BF4E3B973CA858C0BCA5639CF7/'.
+[2017.10.26-14.22.44:177][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.26-14.22.45:447][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.26-14.22.45:490][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.26-14.22.45:534][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.26-14.22.45:576][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.26-14.22.45:624][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.26-14.22.45:667][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.26-14.22.45:709][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.26-14.22.45:752][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.26-14.22.45:788][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.26-14.22.45:829][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.26-14.22.45:871][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.26-14.22.45:913][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.26-14.22.45:954][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.26-14.22.45:996][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.26-14.22.46:080][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.26-14.22.46:080][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.26-14.22.46:127][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.26-14.22.46:159][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.26-14.22.46:237][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.26-14.22.46:258][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.26-14.22.46:301][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.26-14.22.46:343][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.26-14.22.46:385][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.26-14.22.46:432][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.26-14.22.46:432][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.26-14.22.46:775][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.26-14.22.47:068][  0]LogDerivedDataCache: Loaded boot cache 0.29s 78MB C:/Users/svenos/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.10.26-14.22.47:068][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/svenos/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2017.10.26-14.22.47:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/UnrealProjects/Unreal Billiards/UnrealBilliards/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.26-14.22.47:068][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.26-14.22.47:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/UnrealProjects/Unreal Billiards/UnrealBilliards/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.26-14.22.47:069][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.26-14.22.47:089][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.26-14.22.47:100][  0]LogDerivedDataCache: Using Local data cache path C:/Users/svenos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.26-14.22.47:110][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.26-14.22.47:110][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.26-14.22.47:112][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-14.22.47:112][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-14.22.47:632][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-14.22.47:924][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.26-14.22.47:956][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.26-14.22.47:956][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.26-14.22.47:956][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.26-14.22.47:956][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.26-14.22.47:956][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.26-14.22.47:984][  0]LogNetVersion: UnrealBilliards , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 545222190)
+[2017.10.26-14.22.48:135][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.10.26-14.22.48:635][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.065315 seconds
+[2017.10.26-14.22.48:641][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2017.10.26-14.22.48:641][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2017.10.26-14.22.48:641][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.26-14.22.48:677][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.26-14.22.52:005][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.26-14.22.52:039][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.26-14.22.52:610][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.26-14.22.52:966][  0]SourceControl: Source control is disabled
+[2017.10.26-14.22.52:966][  0]SourceControl: Source control is disabled
+[2017.10.26-14.22.53:008][  0]SourceControl: Source control is disabled
+[2017.10.26-14.22.53:050][  0]SourceControl: Source control is disabled
+[2017.10.26-14.22.53:700][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.26-14.22.53:911][  0]LogOcInput: OculusInput pre-init called
+[2017.10.26-14.22.54:147][  0]LogEngine: Initializing Engine...
+[2017.10.26-14.22.54:149][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.26-14.22.54:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.26-14.22.54:375][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.26-14.22.54:482][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.26-14.22.54:504][  0]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.22.54:526][  0]LogInit: FAudioDevice initialized.
+[2017.10.26-14.22.54:605][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/svenos/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2017.10.26-14.22.54:616][  0]LogInit: Texture streaming: Enabled
+[2017.10.26-14.22.54:689][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.26-14.22.54:790][  0]LogInit: Transaction tracking system initialized
+[2017.10.26-14.22.55:035][  0]BlueprintLog: New page: Editor Load
+[2017.10.26-14.22.55:725][  0]LocalizationService: Localization service is disabled
+[2017.10.26-14.22.56:316][  0]LogConsoleResponse: Display: 
+[2017.10.26-14.22.56:509][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.26-14.22.56:509][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.26-14.22.56:509][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.26-14.22.57:016][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/' took 0.01s
+[2017.10.26-14.22.57:465][  0]SourceControl: Source control is disabled
+[2017.10.26-14.22.57:465][  0]Cmd: MAP LOAD FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.26-14.22.57:465][  0]LightingResults: New page: Lighting Build
+[2017.10.26-14.22.57:498][  0]MapCheck: New page: Map Check
+[2017.10.26-14.22.57:498][  0]LightingResults: New page: Lighting Build
+[2017.10.26-14.22.57:932][  0]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.22.57:944][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.26-14.22.57:956][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.26-14.22.58:002][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.59ms to complete.
+[2017.10.26-14.22.58:002][  0]LogFileHelpers: Loading map 'BilliardsLevel' took 0.537
+[2017.10.26-14.22.58:142][  0]LogCollectionManager: Loaded 0 collections in 0.001234 seconds
+[2017.10.26-14.22.58:212][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Collections/' took 0.01s
+[2017.10.26-14.22.58:212][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Developers/svenos/Collections/' took 0.01s
+[2017.10.26-14.22.58:212][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Collections/' took 0.01s
+[2017.10.26-14.22.58:212][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.26-14.22.58:220][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2363 classes and 519 folders.
+[2017.10.26-14.22.58:269][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.10.26-14.22.58:367][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.10.26-14.22.58:402][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.10.26-14.22.58:417][  0]LogSlate: Took 0.001165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.26-14.22.58:420][  0]LogSlate: Took 0.001019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.26-14.22.58:426][  0]LogSlate: Took 0.001172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.26-14.22.58:527][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.10.26-14.22.58:716][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.10.26-14.22.58:716][  0]LogLoad: (Engine Initialization) Total time: 18.45 seconds
+[2017.10.26-14.22.58:716][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.26-14.22.58:716][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.26-14.22.58:746][  0]LogAssetRegistry: Asset discovery search completed in 10.6311 seconds
+[2017.10.26-14.22.58:747][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.26-14.22.58:747][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.10.26-14.22.58:750][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.26-14.22.58:799][  0]LogSlate: Took 0.001293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-14.23.05:779][798]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-14.23.06:069][798]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2017.10.26-14.23.06:691][798]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.26-14.23.06:758][798]LogSlate: Took 0.001675 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.26-14.23.07:096][799]LogSlate: Took 0.002900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.26-14.28.15:478][766]BlueprintLog: New page: Compile BP_Cue
+[2017.10.26-14.28.48:130][270]BlueprintLog: New page: Compile VectorLibrary
+[2017.10.26-14.29.16:879][853]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.29.16:919][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.16:919][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.29.16:920][853]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:29:16 PM)
+[2017.10.26-14.29.16:920][853]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.16:923][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003301s)
+[2017.10.26-14.29.16:924][853]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.16:924][853]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.10.26-14.29.16:924][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.004195s)
+[2017.10.26-14.29.16:942][853]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.29.16:947][853]LogInit: FAudioDevice initialized.
+[2017.10.26-14.29.16:984][853]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.16:987][853]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.16
+[2017.10.26-14.29.16:987][853]LogWorld: Bringing up level for play took: 0.001461
+[2017.10.26-14.29.17:686][853]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2017.10.26-14.29.17:686][853]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.17:686][853]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.17:686][853]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.17:687][853]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.17:687][853]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel 1.485
+[2017.10.26-14.29.17:688][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.18:774][944]LogBlueprintUserMessages: [BP_Cue_C_0] X=-529.825 Y=387.125 Z=-57.409
+[2017.10.26-14.29.21:999][242]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.21:999][242]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.22:000][242]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.29.22:011][243]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.29.22:011][243]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.29.22:012][243]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.29.22:032][243]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.22:035][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002849s)
+[2017.10.26-14.29.22:036][243]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.22:036][243]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2017.10.26-14.29.22:036][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003848s)
+[2017.10.26-14.29.22:036][243]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.22:038][243]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.22
+[2017.10.26-14.29.22:038][243]LogWorld: Bringing up level for play took: 0.001271
+[2017.10.26-14.29.22:038][243]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.29.22:039][243]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.22:039][243]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.22:039][243]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.22:040][243]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.22:040][243]LogLoad: Took 0.027448 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.29.22:700][302]LogBlueprintUserMessages: [BP_Cue_C_0] X=272.003 Y=640.248 Z=-109.033
+[2017.10.26-14.29.24:622][479]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.24:623][479]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.24:624][479]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.29.24:635][480]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.29.24:635][480]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.29.24:636][480]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.29.24:656][480]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.24:659][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002870s)
+[2017.10.26-14.29.24:660][480]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.24:660][480]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2017.10.26-14.29.24:660][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003909s)
+[2017.10.26-14.29.24:660][480]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.24:662][480]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.24
+[2017.10.26-14.29.24:662][480]LogWorld: Bringing up level for play took: 0.001287
+[2017.10.26-14.29.24:662][480]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.29.24:663][480]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.24:663][480]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.24:663][480]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.24:663][480]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.24:663][480]LogLoad: Took 0.027321 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.29.25:661][570]LogBlueprintUserMessages: [BP_Cue_C_0] X=568.168 Y=342.738 Z=-106.303
+[2017.10.26-14.29.28:218][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.28:251][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.29:605][917]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.29.29:621][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.29:621][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.29.29:621][917]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:29:29 PM)
+[2017.10.26-14.29.29:621][917]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.29:624][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003004s)
+[2017.10.26-14.29.29:625][917]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.29:625][917]LogPlayLevel: PIE: World Init took: (0.000739s)
+[2017.10.26-14.29.29:625][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003958s)
+[2017.10.26-14.29.29:646][917]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.29.29:651][917]LogInit: FAudioDevice initialized.
+[2017.10.26-14.29.29:681][917]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.29:683][917]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.29
+[2017.10.26-14.29.29:683][917]LogWorld: Bringing up level for play took: 0.001281
+[2017.10.26-14.29.29:684][917]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.29:684][917]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.29:684][917]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.29:684][917]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.29:685][917]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel -0.518
+[2017.10.26-14.29.29:685][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.32:422][163]LogBlueprintUserMessages: [BP_Cue_C_0] X=-10.692 Y=31.916 Z=-0.868
+[2017.10.26-14.29.33:767][285]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.33:767][285]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.33:769][285]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.29.33:780][286]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.29.33:780][286]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.29.33:781][286]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.29.33:802][286]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.33:804][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002767s)
+[2017.10.26-14.29.33:805][286]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.33:805][286]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.10.26-14.29.33:805][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003586s)
+[2017.10.26-14.29.33:805][286]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.33:807][286]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.33
+[2017.10.26-14.29.33:807][286]LogWorld: Bringing up level for play took: 0.001248
+[2017.10.26-14.29.33:807][286]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.29.33:808][286]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.33:808][286]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.33:808][286]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.33:808][286]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.33:808][286]LogLoad: Took 0.027606 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.29.34:900][383]LogBlueprintUserMessages: [BP_Cue_C_0] X=-36.651 Y=55.225 Z=-7.524
+[2017.10.26-14.29.35:617][449]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.35:617][449]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.35:619][449]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.29.35:630][450]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.29.35:630][450]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.29.35:631][450]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.29.35:652][450]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.35:655][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002798s)
+[2017.10.26-14.29.35:655][450]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.35:655][450]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.10.26-14.29.35:655][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003577s)
+[2017.10.26-14.29.35:655][450]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.35:657][450]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.35
+[2017.10.26-14.29.35:657][450]LogWorld: Bringing up level for play took: 0.001254
+[2017.10.26-14.29.35:658][450]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.29.35:658][450]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.35:658][450]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.35:658][450]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.35:659][450]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.35:659][450]LogLoad: Took 0.027929 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.29.36:683][541]LogBlueprintUserMessages: [BP_Cue_C_0] X=-13.229 Y=30.892 Z=-2.067
+[2017.10.26-14.29.37:676][632]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.37:676][632]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.37:678][632]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.29.37:688][633]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.29.37:688][633]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.29.37:690][633]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.29.37:709][633]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.37:712][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002809s)
+[2017.10.26-14.29.37:713][633]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.37:713][633]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.10.26-14.29.37:713][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003683s)
+[2017.10.26-14.29.37:713][633]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.37:715][633]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.37
+[2017.10.26-14.29.37:715][633]LogWorld: Bringing up level for play took: 0.001256
+[2017.10.26-14.29.37:715][633]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.29.37:716][633]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.37:716][633]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.37:716][633]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.37:716][633]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.37:717][633]LogLoad: Took 0.026925 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.29.38:891][737]LogBlueprintUserMessages: [BP_Cue_C_0] X=-10.692 Y=31.916 Z=-0.868
+[2017.10.26-14.29.41:542][979]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.41:572][979]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.42:991][103]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.29.43:008][103]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.43:008][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.29.43:008][103]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:29:43 PM)
+[2017.10.26-14.29.43:008][103]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.43:011][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002945s)
+[2017.10.26-14.29.43:011][103]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.43:012][103]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.10.26-14.29.43:012][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003752s)
+[2017.10.26-14.29.43:032][103]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.29.43:037][103]LogInit: FAudioDevice initialized.
+[2017.10.26-14.29.43:069][103]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.43:070][103]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.43
+[2017.10.26-14.29.43:071][103]LogWorld: Bringing up level for play took: 0.001236
+[2017.10.26-14.29.43:071][103]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.43:071][103]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.43:071][103]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.43:072][103]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.43:072][103]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel 0.868
+[2017.10.26-14.29.43:072][103]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.29.44:014][186]LogBlueprintUserMessages: [BP_Cue_C_0] X=-211.321 Y=553.073 Z=-51.602
+[2017.10.26-14.29.45:342][308]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.45:342][308]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.45:343][308]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.29.45:354][309]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.29.45:354][309]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.29.45:355][309]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.29.45:375][309]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.45:378][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002829s)
+[2017.10.26-14.29.45:379][309]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.45:379][309]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2017.10.26-14.29.45:379][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003678s)
+[2017.10.26-14.29.45:379][309]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.45:381][309]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.45
+[2017.10.26-14.29.45:381][309]LogWorld: Bringing up level for play took: 0.001269
+[2017.10.26-14.29.45:381][309]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.29.45:381][309]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.45:381][309]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.45:381][309]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.45:382][309]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.45:382][309]LogLoad: Took 0.027195 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.29.46:225][384]LogBlueprintUserMessages: [BP_Cue_C_0] X=-190.840 Y=370.427 Z=-48.490
+[2017.10.26-14.29.46:879][444]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.46:879][444]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.29.46:881][444]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.29.46:891][445]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.29.46:891][445]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.29.46:893][445]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.29.46:910][445]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.29.46:913][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002898s)
+[2017.10.26-14.29.46:913][445]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.29.46:913][445]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2017.10.26-14.29.46:913][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003680s)
+[2017.10.26-14.29.46:913][445]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.29.46:915][445]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.29.46
+[2017.10.26-14.29.46:915][445]LogWorld: Bringing up level for play took: 0.001335
+[2017.10.26-14.29.46:916][445]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.29.46:916][445]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.46:916][445]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.29.46:916][445]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.46:917][445]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.29.46:917][445]LogLoad: Took 0.023879 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.29.48:457][582]LogBlueprintUserMessages: [BP_Cue_C_0] X=-120.135 Y=365.785 Z=-60.525
+[2017.10.26-14.30.31:698][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.31:730][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.32:896][674]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.30.32:913][674]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.32:913][674]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.30.32:913][674]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:30:32 PM)
+[2017.10.26-14.30.32:913][674]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.30.32:916][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002855s)
+[2017.10.26-14.30.32:916][674]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.30.32:916][674]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.10.26-14.30.32:917][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003702s)
+[2017.10.26-14.30.32:937][674]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.30.32:942][674]LogInit: FAudioDevice initialized.
+[2017.10.26-14.30.32:968][674]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.30.32:970][674]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.30.32
+[2017.10.26-14.30.32:970][674]LogWorld: Bringing up level for play took: 0.001219
+[2017.10.26-14.30.32:971][674]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.30.32:971][674]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.30.32:971][674]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.30.32:972][674]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.30.32:972][674]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel 0.765
+[2017.10.26-14.30.32:972][674]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.34:407][802]LogBlueprintUserMessages: [BP_Cue_C_0] X=280.264 Y=638.454 Z=-71.740
+[2017.10.26-14.30.35:943][943]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.35:971][943]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.37:324][ 61]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.30.37:340][ 61]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.37:340][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.30.37:340][ 61]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:30:37 PM)
+[2017.10.26-14.30.37:340][ 61]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.30.37:343][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002881s)
+[2017.10.26-14.30.37:344][ 61]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.30.37:344][ 61]LogPlayLevel: PIE: World Init took: (0.000566s)
+[2017.10.26-14.30.37:344][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003651s)
+[2017.10.26-14.30.37:364][ 61]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.30.37:369][ 61]LogInit: FAudioDevice initialized.
+[2017.10.26-14.30.37:395][ 61]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.30.37:397][ 61]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.30.37
+[2017.10.26-14.30.37:397][ 61]LogWorld: Bringing up level for play took: 0.001260
+[2017.10.26-14.30.37:398][ 61]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.30.37:398][ 61]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.30.37:398][ 61]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.30.37:399][ 61]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.30.37:399][ 61]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel -0.808
+[2017.10.26-14.30.37:399][ 61]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.38:234][133]LogBlueprintUserMessages: [BP_Cue_C_0] X=-549.827 Y=-317.428 Z=-231.077
+[2017.10.26-14.30.39:378][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.30.39:408][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.32.37:969][211]LogActorFactory: Actor Factory created Cube
+[2017.10.26-14.32.38:434][247]LogActorFactory: Actor Factory created Cube
+[2017.10.26-14.32.45:814][808]Cmd: DELETE
+[2017.10.26-14.32.45:814][808]Cmd: ACTOR DELETE
+[2017.10.26-14.32.45:818][808]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.26-14.32.45:837][808]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.10.26-14.32.46:809][890]LogActorFactory: Actor Factory created Plane
+[2017.10.26-14.32.47:198][920]LogActorFactory: Actor Factory created Plane
+[2017.10.26-14.33.29:184][128]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.33.29:200][128]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.33.29:200][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.33.29:201][128]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:33:29 PM)
+[2017.10.26-14.33.29:201][128]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.33.29:204][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003011s)
+[2017.10.26-14.33.29:204][128]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.33.29:204][128]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.10.26-14.33.29:204][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003769s)
+[2017.10.26-14.33.29:223][128]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.33.29:229][128]LogInit: FAudioDevice initialized.
+[2017.10.26-14.33.29:261][128]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.33.29:262][128]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.33.29
+[2017.10.26-14.33.29:262][128]LogWorld: Bringing up level for play took: 0.001198
+[2017.10.26-14.33.29:263][128]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.29:263][128]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.29:263][128]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.29:264][128]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.29:264][128]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel 1.048
+[2017.10.26-14.33.29:264][128]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.33.32:313][398]LogBlueprintUserMessages: [BP_Cue_C_0] X=-636.163 Y=255.611 Z=-182.846
+[2017.10.26-14.33.33:713][524]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.33.33:713][524]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.33.33:715][524]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.33.33:726][525]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.33.33:726][525]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.33.33:727][525]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.33.33:746][525]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.33.33:749][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003040s)
+[2017.10.26-14.33.33:749][525]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.33.33:749][525]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2017.10.26-14.33.33:750][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003977s)
+[2017.10.26-14.33.33:750][525]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.33.33:751][525]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.33.33
+[2017.10.26-14.33.33:752][525]LogWorld: Bringing up level for play took: 0.001251
+[2017.10.26-14.33.33:752][525]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.33.33:752][525]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.33:752][525]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.33:752][525]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.33:753][525]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.33:753][525]LogLoad: Took 0.025407 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.33.36:527][774]LogBlueprintUserMessages: [BP_Cue_C_0] X=0.285 Y=492.296 Z=-30.297
+[2017.10.26-14.33.38:749][974]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.33.38:749][974]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.33.38:751][974]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.33.38:762][975]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.33.38:762][975]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.33.38:763][975]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.33.38:783][975]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.33.38:786][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002881s)
+[2017.10.26-14.33.38:787][975]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.33.38:787][975]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2017.10.26-14.33.38:787][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003710s)
+[2017.10.26-14.33.38:787][975]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.33.38:789][975]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.33.38
+[2017.10.26-14.33.38:789][975]LogWorld: Bringing up level for play took: 0.001291
+[2017.10.26-14.33.38:789][975]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.33.38:790][975]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.38:790][975]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.38:790][975]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.38:791][975]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.38:791][975]LogLoad: Took 0.027667 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.33.39:435][ 32]LogBlueprintUserMessages: [BP_Cue_C_0] X=-225.269 Y=678.686 Z=-135.956
+[2017.10.26-14.33.41:806][247]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.33.41:806][247]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.33.41:808][247]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.33.41:818][248]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.33.41:819][248]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.33.41:819][248]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.33.41:840][248]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.33.41:843][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002881s)
+[2017.10.26-14.33.41:843][248]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.33.41:843][248]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2017.10.26-14.33.41:843][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003678s)
+[2017.10.26-14.33.41:843][248]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.33.41:845][248]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.33.41
+[2017.10.26-14.33.41:845][248]LogWorld: Bringing up level for play took: 0.001292
+[2017.10.26-14.33.41:846][248]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.33.41:846][248]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.41:846][248]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.41:846][248]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.41:847][248]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.41:847][248]LogLoad: Took 0.027488 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.33.42:509][307]LogBlueprintUserMessages: [BP_Cue_C_0] X=-330.883 Y=582.601 Z=-97.194
+[2017.10.26-14.33.44:203][461]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.33.44:235][461]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.33.54:714][267]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.33.54:730][267]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.33.54:730][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.33.54:731][267]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:33:54 PM)
+[2017.10.26-14.33.54:731][267]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.33.54:734][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002995s)
+[2017.10.26-14.33.54:734][267]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.33.54:734][267]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2017.10.26-14.33.54:734][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003738s)
+[2017.10.26-14.33.54:756][267]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.33.54:761][267]LogInit: FAudioDevice initialized.
+[2017.10.26-14.33.54:792][267]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.33.54:794][267]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.33.54
+[2017.10.26-14.33.54:795][267]LogWorld: Bringing up level for play took: 0.001276
+[2017.10.26-14.33.54:795][267]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.54:795][267]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.54:795][267]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.54:796][267]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.54:796][267]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel 0.579
+[2017.10.26-14.33.54:796][267]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.33.56:118][385]LogBlueprintUserMessages: [BP_Cue_C_0] X=-62.456 Y=811.097 Z=-71.172
+[2017.10.26-14.33.59:264][666]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.33.59:264][666]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.33.59:266][666]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.33.59:278][667]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.33.59:278][667]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.33.59:278][667]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.33.59:300][667]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.33.59:303][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002876s)
+[2017.10.26-14.33.59:303][667]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.33.59:303][667]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2017.10.26-14.33.59:304][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003819s)
+[2017.10.26-14.33.59:304][667]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.33.59:306][667]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.33.59
+[2017.10.26-14.33.59:306][667]LogWorld: Bringing up level for play took: 0.001243
+[2017.10.26-14.33.59:306][667]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.33.59:306][667]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.59:306][667]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.33.59:306][667]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.59:307][667]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.33.59:307][667]LogLoad: Took 0.028571 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.33.59:952][723]LogBlueprintUserMessages: [BP_Cue_C_0] X=-489.606 Y=421.047 Z=-87.430
+[2017.10.26-14.34.02:716][975]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.34.02:716][975]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.34.02:718][975]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.34.02:729][976]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.34.02:729][976]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.34.02:730][976]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.34.02:751][976]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.34.02:753][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002776s)
+[2017.10.26-14.34.02:754][976]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.34.02:754][976]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2017.10.26-14.34.02:754][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003656s)
+[2017.10.26-14.34.02:754][976]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.34.02:756][976]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.34.02
+[2017.10.26-14.34.02:756][976]LogWorld: Bringing up level for play took: 0.001223
+[2017.10.26-14.34.02:757][976]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.34.02:757][976]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.34.02:757][976]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.34.02:757][976]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.34.02:758][976]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.34.02:758][976]LogLoad: Took 0.028027 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.34.03:480][ 39]LogBlueprintUserMessages: [BP_Cue_C_0] X=388.285 Y=516.113 Z=-121.029
+[2017.10.26-14.34.15:011][ 86]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.34.15:011][ 86]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.10.26-14.34.15:013][ 86]LogGameMode: ProcessServerTravel: ?Restart
+[2017.10.26-14.34.15:024][ 87]LogEngine: Server switch level: ?Restart
+[2017.10.26-14.34.15:024][ 87]LogNet: Browse: /Game/Levels/BilliardsLevel?Restart
+[2017.10.26-14.34.15:025][ 87]LogLoad: LoadMap: /Game/Levels/BilliardsLevel
+[2017.10.26-14.34.15:043][ 87]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.34.15:046][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002923s)
+[2017.10.26-14.34.15:047][ 87]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.34.15:047][ 87]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.10.26-14.34.15:047][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003752s)
+[2017.10.26-14.34.15:047][ 87]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.34.15:049][ 87]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.34.15
+[2017.10.26-14.34.15:049][ 87]LogWorld: Bringing up level for play took: 0.001307
+[2017.10.26-14.34.15:049][ 87]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.10.26-14.34.15:050][ 87]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.34.15:050][ 87]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.34.15:050][ 87]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.34.15:050][ 87]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.34.15:050][ 87]LogLoad: Took 0.025843 seconds to LoadMap(/Game/Levels/UEDPIE_0_BilliardsLevel)
+[2017.10.26-14.34.15:556][131]LogBlueprintUserMessages: [BP_Cue_C_0] X=103.782 Y=782.333 Z=-93.556
+[2017.10.26-14.34.22:576][773]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.22:609][773]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.25:443][ 13]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.26-14.34.25:462][ 13]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.10.26-14.34.26:988][147]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.34.27:005][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.27:005][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.34.27:005][147]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:34:27 PM)
+[2017.10.26-14.34.27:005][147]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.34.27:008][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002799s)
+[2017.10.26-14.34.27:008][147]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.34.27:009][147]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.10.26-14.34.27:009][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003565s)
+[2017.10.26-14.34.27:029][147]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.34.27:034][147]LogInit: FAudioDevice initialized.
+[2017.10.26-14.34.27:063][147]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.34.27:065][147]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.34.27
+[2017.10.26-14.34.27:065][147]LogWorld: Bringing up level for play took: 0.001369
+[2017.10.26-14.34.27:066][147]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.34.27:066][147]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.34.27:066][147]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.34.27:067][147]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.34.27:067][147]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel 0.848
+[2017.10.26-14.34.27:067][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.27:600][191]LogBlueprintUserMessages: [BP_Cue_C_0] X=152.076 Y=750.855 Z=-67.025
+[2017.10.26-14.34.29:160][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.29:190][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.39:977][323]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.34.39:993][323]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.39:994][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.34.39:994][323]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:34:39 PM)
+[2017.10.26-14.34.39:994][323]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.34.39:997][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002967s)
+[2017.10.26-14.34.39:997][323]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.34.39:997][323]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.10.26-14.34.39:998][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003843s)
+[2017.10.26-14.34.40:018][323]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.34.40:023][323]LogInit: FAudioDevice initialized.
+[2017.10.26-14.34.40:054][323]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.34.40:056][323]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.34.40
+[2017.10.26-14.34.40:056][323]LogWorld: Bringing up level for play took: 0.001221
+[2017.10.26-14.34.40:057][323]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.34.40:057][323]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.34.40:057][323]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.34.40:057][323]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.34.40:057][323]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel -0.163
+[2017.10.26-14.34.40:058][323]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.41:870][484]LogBlueprintUserMessages: [BP_Cue_C_0] X=-26.949 Y=831.279 Z=-72.766
+[2017.10.26-14.34.54:618][644]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.54:650][644]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.34.56:146][774]LogEditorViewport: Clicking on Actor (LMB): BP_BilliardBall_C (BP_BilliardBall28)
+[2017.10.26-14.35.22:522][770]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.35.22:538][770]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.35.22:539][770]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.35.22:539][770]PIE: New page: PIE session: BilliardsLevel (Oct 26, 2017, 6:35:22 PM)
+[2017.10.26-14.35.22:539][770]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_BilliardsLevel
+[2017.10.26-14.35.22:542][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003024s)
+[2017.10.26-14.35.22:542][770]LogAIModule: Creating AISystem for world BilliardsLevel
+[2017.10.26-14.35.22:542][770]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.10.26-14.35.22:543][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/BilliardsLevel.BilliardsLevel to /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel (0.003800s)
+[2017.10.26-14.35.22:563][770]LogInit: XAudio2 using 'Digitalt ljud (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.35.22:568][770]LogInit: FAudioDevice initialized.
+[2017.10.26-14.35.22:597][770]LogLoad: Game class is 'BilliardsGameMode_C'
+[2017.10.26-14.35.22:599][770]LogWorld: Bringing World /Game/Levels/UEDPIE_0_BilliardsLevel.BilliardsLevel up for play (max tick rate 0) at 2017.10.26-16.35.22
+[2017.10.26-14.35.22:599][770]LogWorld: Bringing up level for play took: 0.001208
+[2017.10.26-14.35.22:600][770]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.35.22:600][770]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.10.26-14.35.22:600][770]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.35.22:600][770]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.10.26-14.35.22:601][770]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_BilliardsLevel 0.378
+[2017.10.26-14.35.22:601][770]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.35.35:033][886]LogBlueprintUserMessages: [BP_Cue_C_0] X=-30.039 Y=823.649 Z=-122.207
+[2017.10.26-14.35.45:198][810]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.35.45:228][810]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel' with GeneratedClass '/Game/Levels/BilliardsLevel.BilliardsLevel_C' with ClassGeneratedBy '/Game/Levels/BilliardsLevel.BilliardsLevel:PersistentLevel.BilliardsLevel'
+[2017.10.26-14.35.45:276][811]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2017.10.26-14.35.57:969][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Cue" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Blueprints/BP_Cue.uasset" SILENT=true
+[2017.10.26-14.35.58:118][487]LogSavePackage: Save=142.25ms
+[2017.10.26-14.35.58:118][487]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/BP_Cue7E2D0ADF4117CC9C9691AEAB641750A1.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Blueprints/BP_Cue.uasset'
+[2017.10.26-14.35.58:119][487]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Blueprints/BP_Cue.uasset
+[2017.10.26-14.35.58:125][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/VectorLibrary" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Blueprints/VectorLibrary.uasset" SILENT=true
+[2017.10.26-14.35.58:150][487]LogSavePackage: Save=21.45ms
+[2017.10.26-14.35.58:150][487]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/VectorLibrary748E77AD4EA4D26EF7AA8FBD62754A4E.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Blueprints/VectorLibrary.uasset'
+[2017.10.26-14.35.58:152][487]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Blueprints/VectorLibrary.uasset
+[2017.10.26-14.35.58:247][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/BilliardsLevel" FILE="D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.26-14.35.58:430][487]LogSavePackage: Save=158.49ms
+[2017.10.26-14.35.58:430][487]LogSavePackage: Moving 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/BilliardsLevel353A1CF64794F9AB9F4CC28DDF9DC498.tmp' to 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap'
+[2017.10.26-14.35.58:431][487]LogSavePackage: Display: Finished SavePackage D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Levels/BilliardsLevel.umap
+[2017.10.26-14.35.58:450][487]LogFileHelpers: Saving map 'BilliardsLevel' took 0.294
+[2017.10.26-14.35.58:767][488]Cmd: QUIT_EDITOR
+[2017.10.26-14.35.58:789][488]LogExit: Preparing to exit.
+[2017.10.26-14.35.59:174][488]LogExit: Editor shut down
+[2017.10.26-14.35.59:175][488]LogExit: Transaction tracking system shut down
+[2017.10.26-14.35.59:320][488]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.26-14.35.59:320][488]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/' was aborted.
+[2017.10.26-14.35.59:320][488]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.26-14.35.59:320][488]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2017.10.26-14.35.59:320][488]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2017.10.26-14.35.59:320][488]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.26-14.35.59:320][488]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.26-14.35.59:393][488]LogExit: Object subsystem successfully closed.
+[2017.10.26-14.35.59:415][488]LogD3D11RHI: Shutdown
+[2017.10.26-14.35.59:415][488]LogD3D11RHI: CleanupD3DDevice
+[2017.10.26-14.35.59:417][488]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.26-14.35.59:426][488]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
+[2017.10.26-14.35.59:426][488]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2017.10.26-14.35.59:426][488]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2017.10.26-14.35.59:426][488]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2017.10.26-14.35.59:426][488]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2017.10.26-14.35.59:426][488]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2017.10.26-14.35.59:427][488]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Collections/' was aborted.
+[2017.10.26-14.35.59:427][488]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Content/Developers/svenos/Collections/' was aborted.
+[2017.10.26-14.35.59:427][488]LogDirectoryWatcher: A directory notification for 'D:/UnrealProjects/Unreal Billiards/UnrealBilliards/Saved/Collections/' was aborted.
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2017.10.26-14.35.59:427][488]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2017.10.26-14.35.59:428][488]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2017.10.26-14.36.00:101][488]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2017.10.26-14.36.00:152][488]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2017.10.26-14.36.00:159][488]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2017.10.26-14.36.00:193][488]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2017.10.26-14.36.00:194][488]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2017.10.26-14.36.00:195][488]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2017.10.26-14.36.00:295][488]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2017.10.26-14.36.00:395][488]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2017.10.26-14.36.00:395][488]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2017.10.26-14.36.00:395][488]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2017.10.26-14.36.00:395][488]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2017.10.26-14.36.00:395][488]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2017.10.26-14.36.00:395][488]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2017.10.26-14.36.00:396][488]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2017.10.26-14.36.00:396][488]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2017.10.26-14.36.00:396][488]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2017.10.26-14.36.00:396][488]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2017.10.26-14.36.00:396][488]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2017.10.26-14.36.00:396][488]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2017.10.26-14.36.00:396][488]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2017.10.26-14.36.00:396][488]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2017.10.26-14.36.00:397][488]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2017.10.26-14.36.00:397][488]LogModuleManager: Shutting down and abandoning module Media (221)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2017.10.26-14.36.00:402][488]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2017.10.26-14.36.00:404][488]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2017.10.26-14.36.00:404][488]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2017.10.26-14.36.00:404][488]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2017.10.26-14.36.00:404][488]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2017.10.26-14.36.00:404][488]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2017.10.26-14.36.00:404][488]LogModuleManager: Shutting down and abandoning module Core (172)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2017.10.26-14.36.00:405][488]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2017.10.26-14.36.00:478][488]LogDerivedDataCache: Shutdown
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2017.10.26-14.36.00:478][488]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.26-14.36.00:479][488]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.26-14.36.00:479][488]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.26-14.36.00:479][488]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05C1AF18-46B2-5D53-7129-46BBB7A0C176%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.0-3709383%2B%2B%2BUE4%2BRelease-4.18&UserID=89c42780487290bf0e1742a504dab30d%7C1233a64788054df395f9622c3ce6b3ec%7C2657d383-c71c-4f87-999b-40923e3cd8a0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.26-14.36.00:489][488]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.26-14.36.00:490][488]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.26-14.36.00:490][488]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.26-14.36.00:490][488]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.26-14.36.00:490][488]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.26-14.36.00:490][488]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.26-14.36.00:490][488]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.26-14.36.00:490][488]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.26-14.36.00:491][488]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.26-14.36.00:494][488]LogExit: Exiting.
+[2017.10.26-14.36.00:504][488]Log file closed, 10/26/17 16:36:00
